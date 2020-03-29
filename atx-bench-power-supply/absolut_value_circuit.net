@@ -1,0 +1,14 @@
+* C:\Users\wmarkowski\dev-test\sources\various\sandbox\atx-bench-power-supply\absolut_value_circuit.asc
+V1 N001 0 SINE(0 12 50)
+R3 N003 N002 5k
+V2 +12V 0 12
+XU2 N007 N002 +12V 0 N003 AD820
+XU1 N006 N004 +12V 0 N005 AD820
+R6 N005 N004 10k
+R7 N006 N003 5k
+R5 N001 N004 10k
+R1 N007 N001 5k
+.tran 0.1
+.lib ADI1.lib
+.backanno
+.end
