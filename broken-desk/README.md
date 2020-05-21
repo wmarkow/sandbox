@@ -6,6 +6,9 @@ Toporzysko 568
 REGON: 122431300
 NIP: 553-213-56-77
 
+Biurko miało wygląać tak:
+![](tak_mialo_wygladac.png)
+
 
 Przedstawiam tu zdjęcia fuszer popełnionych przez producenta:
 
