@@ -1,0 +1,17 @@
+* C:\Users\wmarkowski\dev-test\sources\various\sandbox\inverter-welder\elements\SG3525_basic_sim.asc
+V1 OSC 0 PULSE(0.9 3.2 0 1.6e-5 0 0 0 10000)
+V2 VCC 0 13
+V3 9.COMPENSATION 0 5
+XU2 OSC 9.COMPENSATION VCC 0 N002 LT1716
+A7 OSC 0 0 0 0 N001 0 0 BUF Vhigh=5 Vlow=0 Ref=2.05
+A4 N001 0 0 0 0 PHI2 PHI1 0 COUNTER cycles=2 Vhigh=5 Vlow=0
+A2 0 PHI2 0 PWM_OUT 0 0 11.OUTPUT_A 0 AND Vhigh=5 Vlow=0
+A5 0 PHI1 0 PWM_OUT 0 0 14.OUTPUT_B 0 AND Vhigh=5 Vlow=0
+C1 8.SOFT-START 0 10n
+XU1 OSC 8.SOFT-START VCC 0 N003 LT1716
+A6 0 N002 0 N003 0 PWM_OUT 0 0 OR Vhigh=5 Vlow=0
+I1 VCC 8.SOFT-START 50µ
+.tran 0 1e-3 0 startup
+.lib LTC1.lib
+.backanno
+.end
