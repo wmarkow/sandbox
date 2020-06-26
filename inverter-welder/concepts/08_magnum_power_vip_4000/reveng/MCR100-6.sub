@@ -1,5 +1,6 @@
 * MCR100-6 SCR A G K MCE 7-17-95
-*MCE MCR100-6 400V 800mA pkg:TO-226AA
+* MCE MCR100-6 400V 800mA pkg:TO-226AA
+* model downloaded from https://www.scribd.com/doc/169627561/SCR-model-for-LTSPICE
 .SUBCKT MCR100-6 1 2 3
 QP 6 4 1 POUT OFF
 QN 4 6 5 NOUT OFF
