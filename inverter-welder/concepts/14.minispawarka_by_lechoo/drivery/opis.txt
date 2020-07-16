@@ -1,0 +1,34 @@
+﻿Porobiłem pomiary transformatora bramkowego nawiniętego na rdzeniu pierścieniowym 
+o przekroju około 25mm² - 4x34zw. drutem 0,4mm. Driver jak w spawarce Colt:
+
+  fot: 4.jpg 5.jpg
+
+Górny przebieg na poniższych zdjęciach pochodzi z wyjścia kontrolera SG3525 (przed 
+mosfetem), dolny na wyjściu drivera obciążonego pojemnością 4,7nF, podstawa czasu 
+0,2us/dz, czułość Y 5V/dz.
+
+Najpierw przebiegi przy wypełnieniu 45%, zbocze narastające i opadające:
+
+  fot: 1.jpg 2.jpg
+
+Jak widać czasy narastania i opadania w granicach 100ns, czyli nie najgorzej.
+Zobaczmy co się dzieje gdy zmniejszymy wypełnienie do około 3% (mniej nie da się 
+ustawić na SG3525), czas trwania impulsu wynosi około 0,6us:
+
+  fot: 3.jpg
+
+Widzimy pogorszenie czasu opadania, wnioski niech sobie każdy sam wyciągnie...
+
+A teraz scalony driver IR2110, obciążony pojemnością 4,7nF przez rezystor 4,7ohm:
+
+  fot: 6.jpg 7.jpg
+
+Ten sam driver bez rezystora 4,7ohm, kondensator 4,7nF podłączony bezpośrednio do 
+wyjścia układu:
+
+  fot: 8.jpg
+
+Jeszcze raz ten sam przebieg przy podstawie czasu 0,1us/dz:
+
+  fot: 9.jpg
+

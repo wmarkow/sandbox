@@ -1,0 +1,41 @@
+﻿- Czy możesz udostępnić schematy?
+
+Kompletną dokumentację opublikuję gdy uporam się z problemem na jaki napotkałem... Spawarka działa i spawa, ale nie do końca poprawnie, UC3845 zbiera jakieś śmieci z falownika, które zakłócają pracę wewnętrznego oscylatora. Nie mam pomysłu jak sobie z tym poradzić, najlepszym rozwiązaniem byłoby zaekranowanie sterownika, ale u mnie nie wchodzi to w grę - jest za mało miejsca w obudowie. Miniaturyzacja trochę się więc zemściła...
+
+W chwili obecnej dysponuję jedynie odręcznymi schematami w wersji roboczej:
+- sterownik na UC3845:
+http://obrazki.elektroda.net/83_1222786340.jpg
+- driver na IR2110:
+http://obrazki.elektroda.net/46_1222786370.jpg
+- zasilacz na TOP233P:
+http://obrazki.elektroda.net/80_1222786405.jpg
+- soft start i zabezpieczenie termiczne:
+http://obrazki.elektroda.net/71_1222786482.jpg
+
+Brakuje schematu falownika, ale jest on bardzo prosty (klasyczny forward 2-tranzystorowy), co można wywnioskować z fotografii przedstawiających etapy budowy spawarki:
+http://leo.wsinf.edu.pl/~leszek/spawarki/fot/
+
+Rysunki płytek w pdf i pcb Protela udostępniam pod adresem:
+http://leo.wsinf.edu.pl/~leszek/spawarki/pcb/
+
+W trakcie uruchamiania poczyniłem drobne zmiany, polegające głównie na dodaniu dodatkowych kondensatorów ceramicznych od strony druku na płytce głównej (info o zmianach nieaktualne - patrz aktualizacja niżej). 
+
+- Jakich użyłeś elementów mocy?
+
+Użyte tranzystory w falowniku to STGW30NC60W (2szt), diody zwrotne MUR860 (2szt), podwójna dioda wyjściowa prostownika STPS200170TV1, mostek prostowniczy B600C35000 (25A/600V), kondensatory 470uF/400V (2szt). 
+Na płytce falownika ponadto znajdują się diody Transil P6KE18A (2szt) zabezpieczające bramki tranzystorów IGBT i równolegle z nimi rezystory 10k. Kondensator polipropylenowy 1,5uF/400V jest przylutowany do zasisków +/- mostka prostowniczego, zaś przekładnik prądowy został włączony w ujemną szynę zasilania falownika - po przecięciu ścieżki, co jest widoczne na zdjęciach. 
+
+- Jakie rdzenie zastosowałeś? Chodzi mi o dławik i trafo główne.
+
+Transformator E65/32/27-3C90 bez szczeliny, uzwojenie pierwotne 27 zwojów płasko drutem 7x0,7mm podwójnie emaliowanym (łącznie 4 warstwy), wtórne 9 zwojów taśmą Cu 32x0,3mm izolowana Nomexem 0,2mm.
+
+Dławik E55/28/21-3C90 ze szczeliną około 8,5-9mm na środkowej kolumnie (szczelinę wykonałem samemu), 12 zwojów taśmą Cu 33x0,3mm, izolacja Nomex 0,2mm, indukcyjność około 13..14uH.
+
+Przekładnik prądowy - 50zw. drutem 0,4mm na rdzeniu ferrytowym pierścieniowym TN16-3C11, można użyć rdzenia z odzysku z dławika przeciwzakłóceniowego w zasilaczu PC o średnicy zewnętrznej około 16mm.
+
+Tanio rdzenie ferrytowe na transformator i dławik można kupić w sklepie internetowym www.margotplus.pl - najlepiej zadzwonić do nich i dopytać się z jakiego materiału (nie musi to być koniecznie 3C90) mają aktualnie w sprzedaży.
+
+Jeśli chodzi o transformatorek zasilacza w mojej minispawarce, to jest on nawinięty na małym rdzeniu ze szczeliną EE16 (AL=160), pozyskanym z uszkodzonego zasilacza PC. Uzwojenie pierwotne 2x42zw. 0,18mm (2 warstwy, pomiędzy nimi są uzwojenia wtórne i pomocnicze), pierwsze wtórne (główne) 10zw. 3x0,25mm (płasko 3 drutami jednocześnie, 1 warstwa), drugie wtórne (dla "high side" IR2110) 10zw. 0,25mm (musi być rozrzucone po całej szerokości karkasu), pomocnicze 9zw. 0,25mm. Indukcyjność uzwojenia pierwotnego wynosi ok. 1,1mH, a indukcyjność rozproszenia (pomiar na uzw. pierwotnym po zwarciu wtórnego) - 15uH. 
+
+AKTUALIZACJA:
+Ostatecznie zmuszony byłem zmodyfikować płytkę sterownika (tą małą z UC3845 i IR2110) tak aby maksymalnie skrócić niektóre połączenia w obrębie układu UC3845, użyłem trochę elementów SMD aby poprawić stabilność pracy sterownika, zmian dokonałem na pierwotnej płytce co widać na ostatnich fotografiach, ostatecznego schematu już nie opublikuję gdyż za dużo czasu i cierpliwości na to straciłem... 
