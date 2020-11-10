@@ -13,11 +13,12 @@ They can help to understand how the module works and what are the possibilities 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/00_basic_test_circuit.png)
 
 
-
 ## Test error amplifier to act as a simple comparator
 In this configuration pin 9 is left unconnected. Error amplifier is configured to work as a volatge comparator.
 Pins 1 and 2 are fed with various voltages. Amplifier compares them and gives a controll voltage to PWM amplifier; this voltage can be
 meassured back on pin 9.
+
+![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_simple_comparator_test_circuit.png)
 
  | pin 1 [V] | pin 2[V] | pin 9[V] | PWM image|
  |---|---|---|---|
@@ -28,3 +29,14 @@ meassured back on pin 9.
 
 
 ## Test error amplifier to act as a voltage follower
+
+![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_voltage_follower_test_circuit.png)
+
+
+## Test PWM with Compensation pin
+
+![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_magnum_power_vip_4000_test_circuit.png)
+
+## Test controll PWM with Soft-Start pin
+
+![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_limit_pwm_with_pin8.png)
