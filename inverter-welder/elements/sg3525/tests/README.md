@@ -23,7 +23,7 @@ meassured back on pin 9.
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_simple_comparator_test_circuit.png)
 
  | pin 1 [V] | pin 2[V] | pin 9[V] | PWM [%] | Oscillogram |
- |---|---|---|---|
+ |---|---|---|---|---|
  | 0 | 0 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
  | 0 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
  | 5 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
