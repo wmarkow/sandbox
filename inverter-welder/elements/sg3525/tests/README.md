@@ -24,10 +24,10 @@ meassured back on pin 9.
 
  | pin 1 [V] | pin 2[V] | pin 9[V] | PWM [%] | Oscillogram |
  |---|---|---|---|---|
- | 0 | 0 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
- | 0 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
- | 5 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
- | 5 | 0 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
+ | 0.0 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > |
+ | 0.0 | 5.1 | 5.7 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_50_percent.jpg" width="40%" > |
+ | 5.1 | 5.1 | 0.3 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > |
+ | 5.1 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > |
 
 
 ## Test error amplifier to act as a voltage follower
