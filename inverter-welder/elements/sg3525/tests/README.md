@@ -4,7 +4,7 @@ This document contains a set of hardware tests results of SG3525 module.
 They can help to understand how the module works and what are the possibilities of controllig the generated PWM.
 
 ## SG3525 pinout
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="100%" >
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%" >
 
 
 ## SG3525 internal diagram
@@ -22,33 +22,33 @@ meassured back on pin 9.
 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_simple_comparator_test_circuit.png)
 
- | pin 1 [V] | pin 2[V] | pin 9[V] | PWM image|
+ | pin 1 [V] | pin 2[V] | pin 9[V] | PWM [%] | Oscillogram |
  |---|---|---|---|
- | 0 | 0 | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%" >|
- | 0 | 5 | ? | [<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%">](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png) |
- | 5 | 5 | ? | ? |
- | 5 | 0 | ? | ? |
+ | 0 | 0 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
+ | 0 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
+ | 5 | 5 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
+ | 5 | 0 | ? | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="40%" > |
 
 
 ## Test error amplifier to act as a voltage follower
 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_voltage_follower_test_circuit.png)
 
- | pin 2 [V] |  pin 9[V] | PWM image|
- |---|---|---|---|
- | 0.0 | ? | ? |
- | 0.6 | ? | ? |
- | 0.9 | ? | ? |
- | 1.0 | ? | ? |
- | 1.1 | ? | ? |
- | 2.0 | ? | ? |
- | 2.5 | ? | ? |
- | 3.0 | ? | ? |
- | 3.3 | ? | ? |
- | 3.6 | ? | ? |
- | 4.0 | ? | ? |
- | 4.5 | ? | ? |
- | 5.0 | ? | ? |
+ | pin 2 [V] | pin 9[V] | PWM [%] | Oscillogram |
+ |---|---|---|--|
+ | 0.0 | ? | ? | ? |
+ | 0.6 | ? | ? | ? |
+ | 0.9 | ? | ? | ? |
+ | 1.0 | ? | ? | ? |
+ | 1.1 | ? | ? | ? |
+ | 2.0 | ? | ? | ? |
+ | 2.5 | ? | ? | ? |
+ | 3.0 | ? | ? | ? |
+ | 3.3 | ? | ? | ? |
+ | 3.6 | ? | ? | ? |
+ | 4.0 | ? | ? | ? |
+ | 4.5 | ? | ? | ? |
+ | 5.0 | ? | ? | ? |
  
 ## Test PWM with Compensation pin
 
