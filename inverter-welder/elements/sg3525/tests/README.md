@@ -5,6 +5,9 @@ They can help to understand how the module works and what are the possibilities 
 
 ## SG3525 pinout
 ![SG3525 pinout](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png)
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="70%" >
+[<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%">](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png)
+
 
 ## SG3525 internal diagram
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_block_diagram_onsemi.png)
@@ -22,8 +25,8 @@ meassured back on pin 9.
 
  | pin 1 [V] | pin 2[V] | pin 9[V] | PWM image|
  |---|---|---|---|
- | 0 | 0 | ? | ? |
- | 0 | 5 | ? | ? |
+ | 0 | 0 | ? | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%" >|
+ | 0 | 5 | ? | [<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png" width="50%">](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/sg3525_pinout_onsemi.png) |
  | 5 | 5 | ? | ? |
  | 5 | 0 | ? | ? |
 
@@ -32,11 +35,31 @@ meassured back on pin 9.
 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_voltage_follower_test_circuit.png)
 
-
+ | pin 2 [V] |  pin 9[V] | PWM image|
+ |---|---|---|---|
+ | 0.0 | ? | ? |
+ | 0.6 | ? | ? |
+ | 0.9 | ? | ? |
+ | 1.0 | ? | ? |
+ | 1.1 | ? | ? |
+ | 2.0 | ? | ? |
+ | 2.5 | ? | ? |
+ | 3.0 | ? | ? |
+ | 3.3 | ? | ? |
+ | 3.6 | ? | ? |
+ | 4.0 | ? | ? |
+ | 4.5 | ? | ? |
+ | 5.0 | ? | ? |
+ 
 ## Test PWM with Compensation pin
 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_magnum_power_vip_4000_test_circuit.png)
 
+ | pin 1 [V] | pin 2[V] | pin 9[V] | PWM image|
+ |---|---|---|---|
+ | 0 | 5 | 5 | ? |
+ | 0 | 5 | 0 | ? |
+ 
 ## Test controll PWM with Soft-Start pin
 
 ![SG3525 diagram](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_limit_pwm_with_pin8.png)
