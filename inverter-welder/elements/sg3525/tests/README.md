@@ -12,13 +12,15 @@ They can help to understand how the module works and what are the possibilities 
 
 ## Basic test circuit
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/00_basic_test_circuit.png" width="50%" >
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/00_basic_test_circuit.jpg" width="40%" >
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/00_basic_test_circuit.jpg" width="30%" >
 
 
-## Test error amplifier to act as a simple comparator
-In this configuration pin 9 is left unconnected. Error amplifier is configured to work as a volatge comparator.
-Pins 1 and 2 are fed with various voltages. Amplifier compares them and gives a controll voltage to PWM amplifier; this voltage can be
-meassured back on pin 9.
+## Test 1: error amplifier configured as comparator
+In this test pin 9 is left unconnected. Error amplifier is configured to work as a comparator.
+Pins 1 and 2 are inputs which get compared with each other and a comparison voltage result is fed to the PWM amplifier. This voltage can be
+meassured back on pin 9. \
+**Remark 1:** **do not** leave pins 1 or 2 unconnected as it leads to unpredictable output PWM to be generated! \
+**Remark2:** in this configuration only two PWM duty cycles are generated: either 0% or 50%.
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_simple_comparator_test_circuit.png" width="35%" >
 
