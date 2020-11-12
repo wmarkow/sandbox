@@ -42,10 +42,10 @@ is fed to the PWM amplifier.
 
  | pin 1 [V] | pin 2[V] | pin 9[V] | PWM [%] | Oscillogram | Remark |
  |---|---|---|---|---|---|
- | 0.0 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > | |
+ | 0.0 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
  | 0.0 | 5.1 | 5.7 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_50_percent.jpg" width="40%" > | PWM frequency can be read as ~47.6 kHz|
- | 5.1 | 5.1 | 0.3 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > | |
- | 5.1 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_0_percent.jpg" width="40%" > | |
+ | 5.1 | 5.1 | 0.3 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
+ | 5.1 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
 
 
 ## Test 2: error amplifier configured as a voltage follower
@@ -70,7 +70,7 @@ is fed to the PWM amplifier.
  
 ## Test 3: shutdown by pull down compensation pin
 In this test error amplifier is configured as comparator to generate 50% PWM on both outputs A and B.
-Compensation pin is used to be pulled down to ground and output PWM signal should be shut down.
+Compensation pin is used to be pulled down to ground to shutdown the output PWM signal.
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_magnum_power_vip_4000_test_circuit.png" width="40%" >
 
