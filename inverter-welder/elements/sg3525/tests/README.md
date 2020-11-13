@@ -53,7 +53,7 @@ is fed to the PWM amplifier.
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_voltage_follower_test_circuit.png" width="40%" >
 
  | pin 2 [V] | pin 9[V] | PWM [%] | Oscillogram | Remark |
- |---|---|---|--|--|
+ |---|---|---|---|---|
  | 0.00 | 0.02 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_00_percent.jpg" width="40%" > | |
  | 0.85 | 0.85 |  5 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_05_percent.jpg" width="40%" > | The smallest value which showed stable non zero PWM signal on my oscilloscope |
  | 1.01 | 1.01 |  7 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_07_percent.jpg" width="40%" > | |
@@ -70,10 +70,10 @@ Compensation pin is used to be pulled down to ground to shutdown the output PWM 
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_magnum_power_vip_4000_test_circuit.png" width="40%" >
 
- | pin 1 [V] | pin 2[V] | pin 9[V] | PWM image|
- |---|---|---|---|
- | 0 | 5 | 5 | ? |
- | 0 | 5 | 0 | ? |
+ | pin 9[V] | PWM [%] | Oscillogram |
+ |---|---|---|---|---|
+ | 5.1 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_50_percent.jpg" width="40%" > |
+ | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_00_percent.jpg" width="40%" > |
  
 ## Test 4: limit PWM duty cycle with Soft-Start pin.
 In this test by attaching a variable resitor to the Soft-Start pin we limit the duty cycle of generated PWM signal no matter what voltage is 
