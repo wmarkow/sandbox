@@ -92,4 +92,4 @@ with chip's internal 50uA current source, it will generate max 5V on pin 8, whic
  | 21.7 | 1.01 |  7 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_07_percent.jpg" width="40%" > | |
  | 45.1 | 2.01 | 24 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_24_percent.jpg" width="40%" > | |
  | 75.0 | 3.22 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | Minimum potentiometer value that gives 50% PWM |
- | 98.0 | 4.07 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | |
+ | 98.0 | 4.07 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | The voltage drop on the potentiometer is not 5V. Is it because the internal 50uA current source is not ideal?|
