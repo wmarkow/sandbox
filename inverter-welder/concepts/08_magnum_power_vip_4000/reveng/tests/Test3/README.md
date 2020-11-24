@@ -24,3 +24,4 @@ Additional remarks to oscillograms:
  | 4.00 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test3/vt1_pin5_for_pwm_50_percent.jpg" width="40%" > | |
  | 2.00 | 20 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test3/vt1_pin5_for_pwm_20_percent.jpg" width="40%" > | |
  
+The voltage on the pin 5 of VT1 chip follows the changes of SG3515A pin 11. This is good.
