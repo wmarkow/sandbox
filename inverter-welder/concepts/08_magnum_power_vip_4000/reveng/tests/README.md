@@ -9,8 +9,12 @@ almost all the time around 60V. Only when PWM is set to 5% then the output idle 
 
 In this document I cover some hardware tests of Power VIP 400 device to see what is going on and to better understand how the device works.
 
-## Test 1: check how output idle voltage changes with PWM output (pin 11 of SG3525)
+## [Test 1: check how output idle voltage and pin 11 of SG3525 change with SG3525A pin 8 (Soft-Start)](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test1/README.md)
 
-## Test 2: check how voltage of pin 4 of VT1 chip (this is probably a half bridge with two MOSFETs) changes with PWM output (pin 11 of SG3525)
+## [Test 2: check how voltages of pin 11 of SG3525A and pin 4 of VT1 chip changes with SG3525A pin 8 (Soft-Start)](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test2/README.md)
 
-## Test 3: check how voltage of pin 5 of VT1 chip changes with PWM output (pin 11 of SG3525)
+## [Test 3: check how voltages of pin 11 of SG3525A and pin 5 of VT1 chip changes with SG3525A pin 8 (Soft-Start)](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test3/README.md)
+
+## [Test 4: check how output coil idle voltage changes with SG3525A pin 8 (Soft-Start)](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test4/README.md)
+
+
