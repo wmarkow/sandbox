@@ -3,7 +3,7 @@
 Attach a 100k variable resistor between ground and Soft-Start (pin 8) pin of SG3525A. \
 Attach one scope to pin 11 of SG3515A. \
 Attach second scope directly to one of the output coils of the output trafo. \
-Attach multimeter to the output clamps.
+Attach multimeter to the output clamps. \
 Magnum Power VIP 4000 is not loaded: no balast is attached to the output clamps.
 
 Change the variable resistor to set a different voltage on pin 8 and observe the signals.
