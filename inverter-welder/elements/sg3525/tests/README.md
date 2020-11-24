@@ -30,96 +30,14 @@ For all tests keep in mind:
    * the signal on top comes from pin 11 (Output A)
    * the signal on bottom comes from pin 14 (Output B)
 
-## Test 1: error amplifier configured as comparator
-In this test pin 9 is left unconnected. Error amplifier is configured to work as a comparator.
-Pins 1 and 2 are inputs which get compared with each other and a comparison voltage result (which can be meassured back on pin 9)
-is fed to the PWM amplifier.
+## [Test 1: error amplifier configured as comparator](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test1/README.md)
 
-**Remark 1:** **do not** leave pins 1 or 2 unconnected as it leads to unpredictable output PWM to be generated! \
-**Remark 2:** in this configuration only two PWM duty cycles are generated: either 0% or 50%.
+## [Test 2: error amplifier configured as a voltage follower](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test2/README.md)
 
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_simple_comparator_test_circuit.png" width="35%" >
+## [Test 3: shutdown by pull down compensation pin](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test3/README.md)
 
- | pin 1 [V] | pin 2[V] | pin 9[V] | PWM [%] | Oscillogram | Remark |
- |---|---|---|---|---|---|
- | 0.0 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
- | 0.0 | 5.1 | 5.7 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_50_percent.jpg" width="40%" > | PWM frequency can be read as ~47.6 kHz|
- | 5.1 | 5.1 | 0.3 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
- | 5.1 | 0.0 | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/01_00_percent.jpg" width="40%" > | |
+## [Test 4: limit PWM duty cycle with Soft-Start pin](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test4/README.md)
 
-
-## Test 2: error amplifier configured as a voltage follower
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_voltage_follower_test_circuit.png" width="40%" >
-
- | pin 2 [V] | pin 9[V] | PWM [%] | Oscillogram | Remark |
- |---|---|---|---|---|
- | 0.00 | 0.02 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_00_percent.jpg" width="40%" > | |
- | 0.85 | 0.85 |  5 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_05_percent.jpg" width="40%" > | The smallest value which showed stable non zero PWM signal on my oscilloscope |
- | 1.01 | 1.01 |  7 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_07_percent.jpg" width="40%" > | |
- | 1.50 | 1.50 | 15 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_15_percent.jpg" width="40%" > | |
- | 2.00 | 2.00 | 24 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_24_percent.jpg" width="40%" > | |
- | 2.50 | 2.51 | 33 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_33_percent.jpg" width="40%" > | |
- | 3.01 | 3.01 | 43 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_43_percent.jpg" width="40%" > | |
- | 3.22 | 3.22 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | Minimum voltage that gives 50% PWM |
- | 5.04 | 5.04 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | |
- 
-## Test 3: shutdown by pull down compensation pin
-In this test error amplifier is configured as comparator to generate 50% PWM on both outputs A and B.
-Compensation pin is used to be pulled down to ground to shutdown the output PWM signal.
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_magnum_power_vip_4000_test_circuit.png" width="40%" >
-
- | pin 9[V] | PWM [%] | Oscillogram |
- |---|---|---|
- | 5.1 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_50_percent.jpg" width="40%" > |
- | 0.0 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/03_00_percent.jpg" width="40%" > |
- 
-## Test 4: limit PWM duty cycle with Soft-Start pin.
-In this test by attaching a variable resitor to the Soft-Start pin we limit the duty cycle of generated PWM signal no matter what voltage is generated by error amplifier. \
-Soft-Start mechanism is left intact. \
-It will probably also work when error amplifier is configured as voltage follower.
-
-It is adviced to use max 100k potentiometer. Together
-with chip's internal 50uA current source, it will generate max 5V on pin 8, which is good enough to limit the duty cycle between 0% and 50%.
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_limit_pwm_with_pin8.png" width="40%" >
-
- | Potentiometer [kOhm] | pin 8[V] | PWM [%] | Oscillogram | Remark |
- |---|---|---|---|---|
- |  0.0 | 0.00 |  0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_00_percent.jpg" width="40%" > | |
- | 17.8 | 0.84 |  5 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_05_percent.jpg" width="40%" > | The smallest potentiometer value which showed stable non zero PWM signal on my oscilloscope |
- | 21.7 | 1.01 |  7 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_07_percent.jpg" width="40%" > | |
- | 45.1 | 2.01 | 24 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/04_24_percent.jpg" width="40%" > | |
- | 75.0 | 3.22 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | Minimum potentiometer value that gives 50% PWM |
- | 98.0 | 4.07 | 50 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/02_50_percent.jpg" width="40%" > | The voltage drop on the potentiometer is not 5V. Is it because the internal 50uA current source is not ideal?|
-
- 
-## Test 5: pull down compensation pin with external PWM signal
-In this test error amplifier is configured as comparator to generate 50% PWM on both outputs A and B.
-Compensation pint is pulled down by npn transistor which is driven by external PWM signal. This external
-PWM is generated by Arduino Nano and has the following parameters:
- * duty cycle 50%
- * frequency about 8 times smaller than the frequency of output on channel A or B. Meassured in Test 1 frequency of channel A
- is around 47.6 kHz, which gives the 5,95 kHz of the external PWM.
- 
-Test circuit is as below:
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/05_external_pwm_circuit.png" width="50%" > 
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/05_external_pwm_circuit.jpg" width="60%" >
-
-The result of generated by SG3525 signals is below:
- * signal on top comes from pin 9 of SG3525, which is pulled down by transistor
- * signal on the bottom comes from pin 11 of SG3525
- * time per div is 50us
- * voltage per div is 5V
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/05_pin9_pin11.jpg" width="60%" >
-
- 
-Why is the frequency of external 8 time smaller? Just to have some initial value for experiments. With this setup we have 4 changes of the output voltage on channel A,
-then silence, then again 4 changes of the output voltage, etc. This may by an alternative way of reducing the output voltage by 50% in some devices (i.e. inverter welder)
-driven by SG3525. However an ideal way is using SG3525 in its correct way to generate output voltage on desired level (see Test 1 and Test 2): by changing the internal PWM
-of SG3525.
+## [Test 5: pull down compensation pin with external PWM signal](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test5/README.md)
 
  
