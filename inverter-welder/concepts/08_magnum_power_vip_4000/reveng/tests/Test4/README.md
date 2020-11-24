@@ -3,7 +3,8 @@
 Attach a 100k variable resistor between ground and Soft-Start (pin 8) pin of SG3525A. \
 Attach one scope to pin 11 of SG3515A. \
 Attach second scope directly to one of the output coils of the output trafo. \
-Attach multimeter to the output clamps. \
+Attach multimeter to the output clamps.
+Magnum Power VIP 4000 is not loaded: no balast is attached to the output clamps.
 
 Change the variable resistor to set a different voltage on pin 8 and observe the signals.
 
@@ -18,7 +19,7 @@ Additional remarks to oscillograms:
    * min voltage value is around -65V
    * max voltage value is around  65V
 
- | pin 8 [V] | PWM [%] | Output clamps voltage [V]| Oscillogram \ Pin 11 and output coil voltage | Remark |
+ | pin 8 [V] | PWM [%] | Output clamps voltage [V]| Oscillogram: pin 11 vs output coil voltage | Remark |
  |---|---|---|---|---|
  | 3.66 | 43 | 62.5 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test4/output_coil_voltage_pwm_43.jpg" width="40%" > | |
  | 2.53 | 30 | 61.0 | <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test4/output_coil_voltage_pwm_30.jpg" width="40%" > | |
