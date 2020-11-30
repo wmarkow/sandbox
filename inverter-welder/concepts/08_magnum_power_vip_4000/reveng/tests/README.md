@@ -18,3 +18,6 @@ In this document I cover some hardware tests of Power VIP 400 device to see what
 ## [Test 4: check how output coil idle voltage changes with SG3525A pin 8 (Soft-Start) when no load attached to the welder](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test4/README.md)
 
 ## [Test 5: check how output voltage changes with additional PWM signal on pin 9 of SG3525A when no load attached to the welder](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test5/README.md)
+
+## [Test 6: check how output voltage changes with additional PWM signal on pin 9 of SG3525A when small load attached to the welder](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/concepts/08_magnum_power_vip_4000/reveng/tests/Test6/README.md)
+
