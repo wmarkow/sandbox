@@ -1,4 +1,4 @@
-# Test 4: check how output coil idle voltage changes with SG3525A pin 8 (Soft-Start)
+# Test 4: check how output coil idle voltage changes with SG3525A pin 8 (Soft-Start) when no load attached to the welder
 
 Attach a 100k variable resistor between ground and Soft-Start (pin 8) pin of SG3525A. \
 Attach one scope to pin 11 of SG3515A. \
