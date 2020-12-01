@@ -1,0 +1,261 @@
+*******************************************************************
+******STMicroelectronics MOSFET, IGBT and Bipolar Library *********
+*******************************************************************
+*											*
+* Models provided by STMicroelectronics are not guaranteed to	*
+* fully represent all the specifications and operating		*
+* characteristics of the product behavior that they reproduce.	*
+* The model describes the characteristics of a typical device.	*
+* In all cases, the current product data sheet contains all		*
+* information to be used like final design guidelines and the	*
+* only actual performance specification.					*
+* Altough models can be a useful tool in evaluating device		*
+* performance, they cannot model exact device performance under	*
+* all conditions.									*
+* STMicroelectronics therefore does not assume any			*
+* responsibility arising from their use.					*
+* STMicroelectronics reserves the right to change models		*
+* without prior notice.								*
+*											*
+* Note: The model doesn't take into account the drain, gate,	*
+* source inductances.If these contributions have to be		*
+* considered it is possible include the inductors externally.	*
+* For this package the values can be estimated as follow		*
+*											*
+* Ldrain= 1nH ,Lsource=2nH and Lgate=2.5nH				*
+*											*
+* Rev 1.5 - 25 Feb 2014		      				*
+*****************************************************************
+
+********************************************************
+.SUBCKT STGW60H65DFB-V2 1 2 3 
+
+************************** termiche *****************************************
+E1 Tj val_T VALUE={TEMP}
+R1 val_T 0 1E-03
+
+
+EDiode Tj-Diode dio_T VALUE={TEMP}
+RDiode dio_T 0 1E-03
+
+
+**************************Co-pk Diode*************************************
+
+
+
+.FUNC Rdiodoco(rdidco) {rdid0co*((rdidco+273)/300)**(rdid_tempco)}
+
+.PARAM rdid0co={2.2} rdid_tempco=0.1
+
+R_CO 1 d1zco 10
+
+G_R_didd 1 d1zco VALUE={200*(V(1,d1zco)/Rdiodoco(V(TJ-Diode)))}
+
+V_dico d1zco dico2 0
+
+G_diode 3 dico2 VALUE={I_dico(V(3,dico2),v(Tj-Diode))}
+
+R_x 3 dico2 1E9
+
+.FUNC I_dico(z3dio,k3dio) {(exp(min(-15+z3dio/(dico(k3dio)),7))-1n)}
+.FUNC dico(k4dio) {0.073-140E-06*k4dio}
+
+
+
+********************************DIODO AK ********************************
+
+V_bjt 1 1z 0
+
+G_anodo1 1z a1  VALUE={I_diode(V(1z,a1),v(Tj))}
+r_escusione 1z a1 500
+
+G_Anodo 1y a1 VALUE={(V(1y,a1)/Rdiodo(V(TJ)))}
+r_conv1 1y a1 10
+
+
+.FUNC I_diode(z3,k3) {(exp(min(-15+z3/(did(k3)),7))-1n)}
+
+.FUNC did(k4) {0.060-38E-06*k4}
+
+.FUNC Rdiodo(rdid) {rdid0*((rdid+273)/300)**(rdid_temp)}
+
+
+.PARAM rdid0={1u} rdid_temp=2.0
+
+.PARAM  kpsat0=38 kplin0=105 drs=60m
+
+
+***********************************************************
+
+
+
+************************* Itail_1 *********************************
+R_R003 aa 0 500E06
+R_edep 1y d_dedep 10
+G_edep a1 d VALUE={(v(1z,d_dedep))/(200-0.66*v(tj))}
+E_Eds d_dedep edep VALUE {-V(aa,0)*15}
+C_Cds edep 3 5E-12
+E_E001 ba 0 VALUE {-2*((V(Tj)))*I(V_BJT)}
+R_R001 aa ba 1
+C aa 0 1E-12
+***********************************************************
+
+*******************************************************************
+*E1 Tj val_T VALUE={TEMP}
+*R1 val_T 0 1E-03
+***********************************************************
+Rtk Tj 0 1E10
+Rtk1 Tj 0 1E10
+************************************
+VLd 1y d1k 0
+VLs ss 3c 0
+VLG 2 g2 0
+*rg1 g2 g {rg}
+Grg1 g2 g VALUE ={V(g2,g)/(0.0025*V(tj)+0.64)}
+*******************************************************************
+.PARAM Area=1  
+***************************************************
+.PARAM  rg=1.65 Vth0=7.0
+.PARAM  lambda=0.0000071 
+
+
+.PARAM  rd=2.7m 
+.PARAM  rpa=1E-05
+
+***********************************
+.PARAM  unt =-1.7 vthx=4.5m ksat=-0.3 klin= -0.1
+.PARAM  a=1 b=1 Rx=0.5
+
+E_soglia soglia 0 value {vth1(V(TJ))}
+R_soglia soglia 0 1
+
+
+***********************************************************
+.FUNC r_s(T) {((T+273)/300)**(unt)/drs}
+.FUNC vth1(x) {vth0-vthx*(x-27)}
+.FUNC kpsat(x) {kpsat0*((x+273)/300)**(ksat)}
+.FUNC kplin(x) {kplin0*((x+273)/300)**(klin)}
+.FUNC un(T) {b*((T+273)/300)**(unt)}
+
+***********************************************************
+***********************************************************
+Gmos d s value {(IF(v(g,s)<vth1(V(TJ)),0,
++(IF((V(d,s)<(v(g,s)-vth1(V(TJ)))*kpsat(v(TJ))/kplin(v(TJ))),(1+LAMBDA*v(d,s))*kplin(v(TJ))/2*v(d,s)*
++(2*(v(g,s)-vth1(V(TJ)))-kplin(v(TJ))/kpsat(v(TJ))*v(d,s)),
++(1+LAMBDA*v(d,s))*kpsat(v(TJ))/2*(v(g,s)-vth1(V(TJ)))**2))))}
+
+G_RMos d1k dd VALUE={Area*((un(V(TJ))*(V(d1k,d)))/(rd+rpa*((I(V_sense)**a))**Rx))}
+
+
+V_grss s ss 0
+G_rs 3c 3 VALUE={(Area*(r_s(V(TJ))*v(3c,3))/drs)}
+
+R_Grs 3c 3 1E03
+
+R_Rmos d1k dd 1E03
+V_sense dd d 0
+***********************************************************
+rdd dd 0 1E10
+rdd1 d 0 1E10
+rdd3 s 0 1E10
+R_DS d s 1E10
+***********************************************************
+CGS g 3  {7800p*Area}
+R_CGS g 3 500E06
+***********************************************************
+Cref 40 0 1E-12
+E2 40 50 value {V(g,d1k)}
+V2 50 0 0
+Gcdg d1k g value {1.0*Area*V(alfa)*i(V2)*1E12}
+Rcap 0 alfa 1E03
+Ecap alfa 0 TABLE = {V(d1k,3)}
++(0.1,13718p) 
++(0.2,12320p) 
++(0.5,11315p) 
++(1,10254p) 
++(2,9638p) 
++(3,8486p) 
++(5,7363p) 
++(7,6302p) 
++(10,3751p) 
++(15,1003p) 
++(20,176p) 
++(25,158p) 
++(30,144p) 
++(40,125p) 
++(50,112p) 
++(100,80p) 
++(150,66p) 
++(200,58p) 
++(250,52p) 
++(300,48p) 
++(350,48p) 
++(400,48p) 
++(450,48p) 
++(500,49p) 
++(550,49p) 
++(600,50p) 
++(650,50p) 
+
+
+
+**************************Co*******************************
+Cref2 402 0 1E-12
+E22 402 502 value {V(ss,d1k)}
+V22 502 0 0
+
+Rsensing d1k d1kx 1m
+Vsensing d1kx d1kxx 0
+Gtail d1k ss value {1*I(Vsensing)*(0.255*v(tj)+1.5)}
+
+***********************************************************
+
+Gcdg2 d1kxx ss value {1*Area*V(alfa2)*i(V22)*1E12}
+Rcap2 0 alfa2 100E03
+Ecap2 alfa2 0 TABLE = {V(d1k,ss)}
++(0.1,5892p) 
++(0.2,5228p) 
++(0.5,2878p) 
++(1,1684p) 
++(2,962p) 
++(3,758p) 
++(5,581p) 
++(7,490p) 
++(10,411p) 
++(15,336p) 
++(20,292p) 
++(25,262p) 
++(30,240p) 
++(40,209p) 
++(50,188p) 
++(100,137p) 
++(150,116p) 
++(200,103p) 
++(250,94p) 
++(300,88p) 
++(350,86p) 
++(400,85p) 
++(450,84p) 
++(500,83p) 
++(550,82p) 
++(600,81p) 
++(650,81p) 
+
+
+
+
+************************BVCES******************************
+V_BVCES   1z BVCES1 0
+R_bvdss	BVCES1 d1bvdss1 1
+V_bvdss	d1bvdss1 d1bvdss2 0
+G_bvd	d1bvdss2 3 VALUE={I_BVDSS(V(d1bvdss2,3),v(Tj))}
+R_GBDSS	d1bvdss2 0 1E9
+.FUNC I_BVDSS(z,k1) {(exp(min(-355+z/(bvd(k1)),10))+0)}
+.FUNC bvd(k) {2+0.0016*k}
+
+***********************************************************
+
+
+.ENDS STGW60H65DFB-V2
+
+*$
