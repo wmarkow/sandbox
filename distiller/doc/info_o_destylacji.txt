@@ -1,0 +1,66 @@
+https://wino.org.pl/forum/Thread-W%C5%82asny-spirytus-do-nalewek?pid=353818#pid353818
+
+
+refluks - skraplanie oparów i zawracanie ich z powrotem do wsadu
+zimne palce - to jest chyba kolumna rektyfikacyjna z nałożoną chłodnicą w pewnym miejscu do skraplania oparów by mieć wpływ na poziom refluksu
+         
+
+
+kolumna rektyfikacyjna
+  kolumna z półkami fizycznymi
+  kolumna z wkładem masowym 
+destylacją z parą wodną a ogrzewanie parowe wsadu
+OVM - system obniżonego odbioru
+OLM - system obniżonego odbioru
+
+
+
+
+Zimne palce - nazwa tylko jednego, konkretnego rozwiązania systemu tzw. refluksu wewnętrznego
+
+system refluksu zaworowego
+
+
+Reflux Ratio, RR - Stosunek ilości skroplin powracających na wypełnienie do ilości skroplin odbieranych. Od tego stosunku w bezpośredni sposób zależy stężenie i jakość 
+   (to nie jest to samo, choć powiązane) otrzymywanego destylatu. Zasada jest prosta, im ten współczynnik wyższy, tym lepsza jakość produktu - co oczywiście niestety oznacza
+   mniejszy uzysk w l/h i dłuższy czas pracy kolumny/kotła z pojedynczym "wsadem" (mówię tu bowiem o destylacji okresowej, z kotłem o określonej pojemności).
+   Podobieństwo do starej zasady „wolniej jedziesz, dalej (lepiej) jedziesz” nie jest przypadkowe.
+   Reflux 100% oznacza, że wszystkie skropliny wracają z powrotem do wsadu
+   
+   
+głowica zaworową np. Aabratek
+
+
+Elementu aparatu:
+
+Minimum:
+  elektryczny kociołek grzewczy z pomiarem temperatury wsadu
+  jednometrowa kolumna rektyfikacyjna o średnicy ~50mm wypełniona zmywakami nierdzewnymi spiralnymi
+  głowica zaworowa np. Aabratek
+
+Medium:
+  kolumna 60-63mm/1,5m z wypełnieniem zmywakami nierdzewnymi lub sprężynkami pryzmatycznymi
+  regulator fazowy
+  wziernik szklany tuż pod głowicą zaworową
+  system obniżonego odbioru (tzw. OVM lub lepszy OLM)
+  
+Maksi:
+  kolumna 63-76mm z buforem wzmacniająco-stabilizującym
+  dołożenie tzw. potocznie „katalizatora” miedzianego (choć nie jest to katalizator, ściśle rzecz biorąc – na powierzchni miedzi zachodzi reakcja chemiczna)
+  przepływomierz dla szybkiego i niekłopotliwego określania szybkości odbioru rektyfikatu
+  
+
+  
+  
+  
+  
+Porównanie OVM i OLM:
+Vapour Managment
+Liquid Managment 
+https://wino.org.pl/forum/Thread-W%C5%82asny-spirytus-do-nalewek?pid=354236#pid354236
+
+W systemie OVM czyli dolnym odbiorze par może nastąpić dostawanie się lekkich frakcji do chłodnicy np. liebiga i tym samym wprost do destylatu. 
+W systemie OLM odbiera się spływającą z wyższych partii "flegmę" i "przedgony" nie mają takiej szansy trafić do odbioru jak w OVM. 
+Dodatkowo uważam, że OVM przez to, że wymaga dodatkowej chłodnicy jest bardziej skomplikowany sprzętowo. 
+
+  

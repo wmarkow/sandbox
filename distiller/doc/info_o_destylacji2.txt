@@ -1,0 +1,141 @@
+Napiszę raz jeszcze - polecam książkę do fizyki, tam jest napisane że ok 78,29 przestanie skraplać. 
+Więc jeżeli wypływająca woda ma niższą temperaturę to znaczy że skraplanie następuje na wszystkich zwojach, a nie na 5 czy 6 tak jak piszesz. 
+Oczywiście kluczowym elementem zabawy jest kierunek przepływu wody w skraplaczu!!!
+Idąc dalej musimy pamiętać że sprawność skraplania każdego zwoju spada wraz ze wzrostem temperatury, 
+to dlatego skraplacz musi być odpowiednio długi, wiec jeżeli chcemy mieć cieplejszą wodę na wylocie i skutecznie skroplony alkohol 
+to skraplacz musi mieć odpowiednią długość, a tak naprawdę odpowiednią powierzchnię czynną. 
+Cieplejsza woda na wyjściu skraplacz oznacza mniejsze jej zużycie. Nie wiem czego tu można nie rozumieć.
+
+Rodzaj użytej głowicy nie ma tu kompletnie żadnego znaczenia !!!!!!!!
+
+----------------------------
+
+Z tych też powyższych względów swego czasu wybrałem konstrukcję Alexa Bokakoba i np. używana przeze mnie taka głowica 
+ze skraplaczem zużywa wody od 
+26litrów/h przy 1,5KW, 
+30-35litrów/h przy 2 KW mocy grzania do max około 60-65litrów/4KW mocy grzania.
+
+
+
+----------------------------
+
+Zaganienie jest poruszone na forum homedistiller.
+
+https://homedistiller.org/forum/viewtopic.php?f=63&t=13265&p=6815947#p6815947 - instrukcje na pierwszej stronie.
+
+Tak wyglądać powinien proces rektyfikacji wg Huskera. Nie czytałem zbyt wielu postów. Nie weryfikuję tego. Przedstawiam wolne tłumaczenie - natchnęło mnie na całość, ciekawy post:
+
+^^^^^^^^^^^
+by Husker &#187; Mon Nov 05, 2007 10:28 am
+
+Przy destylacji z użyciem refluksu, aby otrzymać czystą, zalecam:
+
+0. Zaizoluj kolumnę. Pomoże to zarówno przy strippingu/destylacji prostej, jak i rektyfikacji.
+
+1. Napełnij kega i wydoj/wypompuj (stripping) gotowy nastaw z alkoholu (oczywiście mam na myśli destylację). Nie ustawiaj refluksu, otwórz zawór na maksa i zbieraj alkohol 
+od początku aż do jego ostatniej kropli.
+
+
+2. Zbieraj surówkę. Będzie ona znacznie mocniejsza, niż nastaw i nie będzie zawierać zanieczyszczeń stałych.
+
+Po przegonieniu 3-4 nastawów powinieneś mieć odpowiednią ilość surówki. Teraz przegoń tą surówkę na spirytus używając refluksu.
+
+
+Rektyfikacja:
+
+
+0. Zamknij całkowicie zawór refluksu (pełen powrót). Puść wodę. Jeśli masz możliwość kontroli przepływu wody, możesz otrzymać czystszy alkohol.
+
+
+1. Zagotuj nastaw. Po rozpoczęciu gotowania temperatura na kolumnie wzrośnie. Cały czas utrzymuj pełen refluks.
+
+2. Gdy temperatura na szczycie osiągnie ok. 76,5C zmniejsz grzanie. Wciąż gotuj nastaw, ale nie potrzebujesz już dużego grzania.
+
+3. Powoli zmniejsz przepływ wody przez chłodnicę aż do uzyskania dość gorącej wody na wyjściu, ale tak, żeby NIE wydostawała się para. 
+Dzięki temu powracający destylat będzie dość gorący.
+
+4. Stabilizuj tak min. 30 minut (nie takim złym pomysłem jest nawet 1 godzina). Dzięki temu ustalasz odpowiedni gradient temperaturowy różnych produktów destylacji w kolumnie. 
+Te najbardziej lotne zostaną skoncentrowane na górze kolumny.
+
+5. Po tym czasie otwórz leciuteńko zawór odbioru. Odbieraj (po kropli na sekundę) i zbieraj 150 do 250 ml przed-przedgonów. Bacz na temperaturę na szczycie. 
+Powinna lekko wzrosnąć.
+ZAPAMIĘTAJ: przedgonów, które do tej pory odebrałeś NIE dodawaj do kolejnego nastawu, {NIE PIJ} może to zostać użyte jako preparat mrówkobójczy 
+{nie wiem, czy w PL mrówki nie są pod ochroną, w razie czego}, paliwo lekkie do niektórych latarenek, do sterylizacji sprzętu. 
+Ale nigdy nie pij, lub przetwarzaj tego płynu.
+
+6.Zastąp pojemnik na przedgony pojemnikiem na "głowę". Powoli odbieraj. Stale uważaj na temperaturę na szczycie oraz na wyjściu wody z chłodnicy (ażeby była dość ciepła,
+ ale by para nie buchała). Utrzymuj odbiór na poziomie kropli na sekundę. Badaj smak i zapach (rozcieńcz wodą do testu i wypluj). 
+ Kontynuuj proces aż do pozbycia się niepożądanych zapachów/smaków.
+
+7. Zamknij zawór odbiou, zwiększ trochę przepływ wody, zwiększ nieco ogrzewanie i jedź tak na pełnym refluksie przez około 15 minut.
+
+
+8. Otwórz zawór odbioru, ażeby uzyskać 2-3 krople na sekundę i odbierz około 150 ml (do "głowy"). Sprawdzaj temperaturę kolumny i upewnij się, że chłodnica wszystko skrapla.
+ Spróbuj odbierany alkohol ażeby się upewnić, że zakończyłeś odbiór "głowy".
+
+9. Teraz zacznij odbiór środka. Zrobisz to obserwując termometr na szczycie kolumny. Jeśli ustawisz odpowiedni poziom refluksu, temperatura będzie stała.
+ Sam musisz ustalić odpowiedni jego poziom - jest to kombinacja mocy grzewczej przyłożonej do kega mocy chłodzącej pochodzącej z chłodnicy (jak zimny jest powrót)
+ oraz ilości powrotu destylatu do kolumny. Zazyczaj około 4:1 daje dobre rezultaty.
+
+10. Kontynuuj proces używając zaworu odbioru do kontroli % alk. na wyjściu i temperatury na szczycie, utrzymując maksymalną stabilność.
+
+11. Po odpędzeniu około 75-80% alkoholu (możesz wstępnie obliczyć poczatkową ilość alkoholu w nastawie i wyznaczyć ilość alkoholu odebraną mierząc procentowość) 
+musisz mieć zmniejszony refluks celu zachowania stabilności. Możliwe, że będzie potrzebna stabilizacja kolumny. Zamień pojemnik odbioru na małe pojemniki na pogony (np. 200 ml).
+Czas przejść na odbiór pogonów. Odbierając do małych pojemników masz możliwość dokładnego odcięcia pogonów.
+
+12. Gdy upewnisz się, że odebrałeś pogony (procentowość spada, temperatura skacze i nie jesteś w stanie tego już dłużej ustabilizować), 
+zwiększ znacznie przepływ wody, takoż grzanie i otwórz na maksa odbiór. Odbieraj aż do prawie zupełnego wyczerpania alkoholu.
+
+13. Ostatnia część z kolekcji odbioru głowy oraz pierwsza z ogonu poinna pozostać otwarta (czymś lekko przykryta- np filtrem do kawy) przez noc ażeby sobie pooddychały.
+Następnego dnia możesz spróbować je i zobaczyć, czy nadają się do dodania do głównego urobku.
+
+14. Pozostałe części (NIE przed-przedgony) zlej gdzieś do słoja - możesz dodać je do następnego procesu.
+
+15. Główny urobek/"body"/ciało powinniśmy także zostawić otarte/przykryte lekko na dzień, czy jakoś tak ażeby sobie poodychało.
+
+Najważniejszą rzeczą jest ustabilizowanie kolumny, a gdy ją już ustabilizujemy, utrzymujmy ją stabilną podczas odbioru. 
+
+----------------------------------
+
+
+
+Według tego przepisu powyżej. Przykład robię: mam 10L nastawu o mocy 20%, czyli jest w nim 2L alkoholu (lub nawet mieszanka alkoholi: metanol, etanol, propanol...).
+Interesuje mnie etanol.
+
+1. Na początku odbieram przedgony w ilości 150-250 ml, ok, niech będzie z 200ml. Szybkość odbioru: 1 kropla na sekundę.
+2a. Potem idzie pierwsza partia głowy, ile tego może być, bo nie jest napisane (odebrać tyle, że w smaku było dobre)? 150ml? Szybkość odbioru: 1 kropla na sekundę.
+2b. Potem idzie druga partia głowy: 150ml. Szybkość odbioru: 3 krople na sekundę.
+3. odbiór serca. Tak 75%-80% alkoholu, czyli 75%-80% z 2000ml, czyli 1500ml-1600ml
+
+Muszę chyba pozmniejszać ilości odebranych przedgonów, i głowy bo mi się nie sumuje do 2000ml.
+Poprawka, tak orientacyjnie:
+1. odbieram przedgony w ilości 150ml. Szybkość odbioru: 1 kropla na sekundę. Czas odbioru około: 1500 - 3000s
+2a. pierwsza partia głowy 100ml. Szybkość odbioru: 1 kropla na sekundę. Czas odbioru około: 1000 - 2000s
+2b. druga partia głowy 100ml. Szybkość odbioru: 3 krople na sekundę. Czas odbioru około: 333 - 666s
+3. serce 1500ml. Szybkość odbioru: 3 krople na sekundę. Czas odbioru: 5000 - 10000s
+4. pierwsza część pogonów 100ml. Szybkość odbioru: 3 krople na sekundę. Czas odbioru około: 333 - 666s
+5. druga część pogonów 50ml albo i ciut więcej. Szybkość odbioru: 3 krople na sekundę. Czas odbioru około: 333 - 666s
+
+
+Całość trwa: 2h21m - 4h42m
+
+Objętość kropli (co prawda kropli wody) to 0.05ml - 0.1ml. 
+
+Szybkość 1 kropla na sekundę to  3- 6 ml/min
+Szybkość 2 krople na sekundę to  6-12 ml/min
+Szybkość 3 kropli na sekundę to  9-18 ml/min
+Szybkość 4 kropli na sekundę to 12-24 ml/min
+Szybkość 5 kropli na sekundę to 15-30 ml/min
+
+
+A może by i tak:
+
+
+
+
+
+
+
+
+
+

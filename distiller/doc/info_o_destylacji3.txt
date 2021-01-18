@@ -1,0 +1,246 @@
+Nie robiłem jeszcze prób zalewania tego wypełnienia, jednak podejrzewam ,że na takiej rurze może pojawić w okolicach 2,5kW . Mam oczywiście na myśli moc rzeczywistą, która jak wiadomo zależna jest od sprawności systemu grzejnego.
+Jeśli chodzi o wydajność (uśrednioną) to możesz liczyć w ten sposób:
+1kW=10ml/min
+
+
+------------------------------------------------------------------------------------------------------------------
+Ślepa próba:
+    stratos pisze:
+    Czy ślepą próbę należy wykonywać na czystym spirytusie, czy na rozcieńczonym do 40% ?
+    Ilu kiperów zatrudnić aby próba była wiarygodna ?
+    I czy powinni też przełykać ?
+
+Z tego co pamiętam:
+- rozcieńczenie poniżej 38% (wychodzą zmętnienia), ciepłą wodą w zamkniętym kieliszku (z przykrywką) mocno wstrząsnąć odstawić na chwilkę do ustania, zapach oceniać natychmiast po otwarciu kieliszka
+- 5 kiperów będzie OK
+- gdzieś w necie widziałem kartę oceny sensorycznej - warto poszukać
+- próbek testowych nie spożywamy, pomiędzy próbkami można przegryźć suchą bułką i przepłukać usta czystą wodą.
+
+Przy okazji może ktoś ma komplet norm "spirytusowych" PN-A-79528-XXXXX, zdaje się moje gdzieś przebaniaczyłem.
+------------------------------------------------------------------------------------------------------------------
+
+z 50 l odbieram łącznie około 700-800ml przedgonów wolę mieć czyste serce kosztem "ilości" 400-500 idzie 
+na podpałkę a jak jestem przy sprzęcie to reszta ~ 200-300ml idzie do pogonów kolejną destylację.
+
+------------------------------------------------------------------------------------------------------------------
+
+Ja wykonuję pierwszy odpęd przy użyciu 20cm kolumny wypełnionej miedzią. Zaworek w kolumnie całkowicie otwarty i odbiór destylatu bez podziału a frakcje,
+ aż do 99,7 - 99,8 stopni w kegu. Druga destylacja na kolumnie półkowej, na 4 półkach. Krótka stabilizacja, kropelkowy odbiór przedgonów i odbiór serca
+ w zakresie temp. 89 - 90 stopni. Próbowałem wszystkich zbóż ale najczęściej używam słodu jęczmiennego (pale ale, pilzneński oraz wędzony tortem)
+ oraz jęczmienia i żyta niesłodowanego.
+ 
+------------------------------------------------------------------------------------------------------------------
+ 
+ Rektyfikacja.
+Kolumna 2,5m fi 60mm, głowica puszkowa. Kolumna dzielona na partycje po 50cm. Wypełnienie sprężynki 3,6mm. Półki rozdzielcze. Płaszcz wodny. Przy pierwszym gotowaniu użyty katalizator. Wszystko bardzo starannie i dokładnie ocieplone. Pomiar temp. w głowicy, kolumnie 40cm od dołu i kegu ( pomiar temp. płynu)oraz na ujściu wody z chłodnicy.
+Gotowanie nr 1
+1. Nastaw 10-12% , 45l, glukoza, Alcotek 48 turbo. Klarowanie bentonitem. Nastaw alternatywny wykonany z owoców pozyskanych z odpadów hurtowniczych. Nastaw wykonany z udziałem drożdży G-995 i niezbędnej minimalnej ilości glukozy 1kg/10kg owoców.
+2. Gotowanie 4000W. Zalanie kolumny 3-krotne.
+3. Stabilizacja 2000W ok. 60min.
+4. Odbiór przedgonu 50ml + 350ml. Prędkość 1-3krople/sek.
+5. Odbiór serca do 96*C w kegu. Prędkość odbioru adekwatna do mocy grzania i ilości etanolu w zbiorniku.
+6. Odbiór pogonów do końca.
+Gotowanie nr 2,5
+1. Surówka z pierwszego gotowania rozcieńczona do 45%.
+2. Gotowanie 4000W. Zalanie kolumny 3-krotne.
+3. Stabilizacja 2000W ok. 60min.
+4. Odbiór przedgonów 250ml. Prędkość 1-2 krople/sek.
+5. Rozcieńczenie wsadu do 20% i ponowna stabilizacja ok. 60min.
+6. Odbiór ponowny przedgonów ok. 150ml. Prędkość 1kropla/sek
+7. Odbiór serca metodą obniżonego odbioru bocznego do 97*C w kegu. Prędkość odbioru adekwatna do mocy grzania i ilości etanolu w zbiorniku.
+8. Odbiór pogonów do końca.
+Rektyfikacja pogonów zebranych we wcześniejszych gotowaniach i odzyskanie tym sposobem jeszcze dużej ilości bardzo dobrego spirytusu.
+
+Destylacja metodą Pot-Still.
+Kolumna 50cm fi 60mm wypełniona miedzią. Głowica puszkowa. Płaszcz wodny.
+Gotowanie nr 1.
+1. Nastaw owocowy. Bez glukozy, bądż alternatywnie z użyciem minimalnej ilości glukozy 1kg/10kg owoców. Drożdże Estelle. Fermentacja od 4-6 tygodni. Temperatura otoczenia ok. 15-18*C.
+2. Gotowanie nastawu 4000W. Po zagotowaniu zmniejszenie mocy do 2000W. Długie gotowanie.
+3. Odbiór surówki. Grzanie mocą poniżej 1000W.
+4. Wyciągnięcie wszystkiego bez użycia refluksu.
+Gotowanie nr 2 surówki.
+Użyta cała kolumna.
+1. Gotowanie surówki rozcieńczonej do 20% 4000W.
+2. Stabilizacja 2000W. Ok. 60min.
+3. Odbiór kropelkowy przedgonów w ilości ok. 300ml. w osobne małe buteleczki do ewentualnego użycia do kupażowania z sercem.
+4. Skrócenie kolumny do 50cm.
+5. Odbiór urobku z użyciem refluksu pozwalającego na utrzymanie temp. na głowicy w granicach 89-90*C. Odbiór serca kończę gdy w kegu jest 95-96*C. Tym sposobem otrzymuję serce o mocy niezmiennej ok. 70-72%.
+6. Reszta jako pogon do ponownej rektyfikacji i odzyskania dobrej jakości spirytusu.
+
+Jest to ogólny schemat jaki ja używam przy moich destylacjach.
+Może ulegać on nieznacznym odchyleniom w zależności od użytego surowca i rodzaju drożdży przy fermentacji nastawu. Ale to już temat na osobną historię.
+
+------------------------------------------------------------------------------------------------------------------
+
+Węgierka 100kg rozdrobnione i dodane drożdże do win białych
+Po 1,5 miesiąca nastaw zlany znad pestek - 80litrów
+Jakiś czas wcześniej wiertarką z mieszadłem zostały roztarte resztki całych śliwek i większe kawałki.
+Efekt: nastaw bez problemów z zatykaniem można było wlać do kega przez lejek jak i wylać po wszystkim przez standardowe gniazdo fittingu.
+Zestaw:
+- płaszcz otwarty z solanką
+- keg 50l
+- wsad 40l nastaw z węgierki - ortodox
+- nad kegiem pusty wziernik
+- nad wziernikiem moduł kolumny fi 70mm o długości 35cm z pakietem miedzi (30cm)
+- wyżej moduł kolumny fi 70mm o długości 50cm ze sprężynkami na rdzeniu trójkątnym o średnicy 4,0mm - zasyp 45cm (1,6l)
+- wyżej głowica bokakoba i skraplacz
+
+- Grzanie na pełnej mocy (około 3,6kW), pod koniec wypięcie 1 grzałki.
+- Refluks w głowicy, przy mocy około 1,85kW odbieranie pierwsze 50ml przedgonu.
+- Około 30 minutowa stabilizacja przy mocy 1200W
+- Start Kropelkowego odbioru przedgonu w ilości 250ml przy mocy około 1200W (50-60minut) i wyłączenie grzania
+- Następnie odczekanie aż odcieknie, wypięcie modułu ze sprężynkami 4,0mm, ponowne załączenie zasilania o mocy około 1200W i krótka stabilizacja
+- Średni odbiór 50ml późnego przedgonu na krótkiej już kolumnie (samej miedzi)
+- Odbiór na full (do 90stopni w głowicy - osiągnięte po 13 minutach)
+- Temperatura w kegu 96,5 stopni (odebrane niewiele ponad 1 litr) - około 12 minut stabilizacja (aż temperatura na głowicy dojdzie do temp. dnia) i przejście na odbiór z refluksem (jak na spirytus)
+- Temperatura w kegu 97,2 stopni - koniec odbioru ze względu na zbyt wolny uzysk (w sumie odebrano około 1,3l serca).
+Zwiększenie mocy do maksimum i odbiór reszty alkoholu do innego pojemnika
+Zakończenie procesu
+
+Wyszło 2,6l super aromatycznej śliwowicy o mocy około 76%.
+700ml przedgonów i około 300-400ml bardzo akceptowalnego pogonu.
+Na chwilę obecną wydaje mi się, że to najlepsza śliwowica jaką kiedykolwiek udało mi się zrobić.
+
+------------------------------------------------------------------------------------------------------------------
+
+sesja z zapisem termometrów, ciekawy wykres
+
+https://www.bimber.info/forum/viewtopic.php?f=11&t=4622&start=45
+
+
+
+Czy mógłby ktoś opisać tak łopatologicznie jak na Aabratku destylować owocówki.?
+
+Najprościej jak się da. Pierwszy odpęd jedziesz tak jak piszesz z katalizatorem miedzianym i samą głowicą. Od początku do końca masz zawór odbioru otworzony na max. Wylewasz pierwsze 50 ml a resztę do końca odbierasz.
+Wlewasz to co odebrałeś powtórnie do kega. Tym razem zakładasz głowicę i kawałek pustej 20-60 cm rury. Rura może być wypełniona minimalnie sprężynkami stalowymi.
+Odlewasz pierwsze 200 - 300 ml, potem zaworek cały czas otwarty na max i jedziesz do momentu, aż zacznie płynąć destylat około 50%. Możesz odbierać nawet do 30% ale w osobne naczynie i zobaczysz potem, czy to się nadaje do zmieszania z całością czy nie.
+To chyba najprostszy sposób a pomylić się w nim nie można.
+Pzdr.
+
+Zrób raz, jak będzie Ci pasowało, poprzestań na jednokrotnej destylacji.
+
+------------------------------------------------------------------------------------------------------------------
+
+Żeby zwiększyć refluks (obniżyć temperaturę na głowicy) musimy zmniejszyć odbiór, przykręcając zawór odbioru, lub zwiększyć moc grzania. 
+Destylując cukrówki kilka procent pod progiem zalania nie mamy możliwości zwiększyć moc, bo zalejemy kolumnę, dlatego zmniejszamy odbiór. 
+Za to przy owocówkach, gdzie refluks i moc są mniejsze, możemy tak zrobić.
+
+Zmniejszając moc wydłużysz proces, lub go zatrzymasz, temperatury w ten sposób nie obniżysz.
+
+
+------------------------------------------------------------------------------------------------------------------
+
+Test sprężynek
+
+https://www.bimber.info/forum/viewtopic.php?p=122353#p122353
+
+------------------------------------------------------------------------------------------------------------------
+
+Tablice, tabele, wykresy, instrukcje
+https://www.bimber.info/forum/viewtopic.php?f=11&t=5064&hilit=wykresy
+
+
+
+Temperatura wrzenia roztworu etanolu w wodzie:
+https://www.bimber.info/forum/download/file.php?id=7112
+
+
+
+Cisnienie a temperaura wrzenia:
+https://www.bimber.info/forum/download/file.php?id=7113
+Wydaje mi się, że tutaj też chodzi o tzw. temperaturę dnia, czyli temperaturę w jakiej danego dnia wrze etanol. Wiadomo,
+każdego dnia jest ine ciśnienie atmosferyczne, to i temperatura wrzenia będzie inna.
+
+------------------------------------------------------------------------------------------------------------------
+
+Bardzo dobrze, że Kolega Mario poruszył ten temat będący podstawą dzielenia frakcji.
+Przypomnę teraz matematyczny sposób wyznaczania objętości frakcji dla destylacji kolumnowej. Jest to sprawdzona empirycznie najprostsza metoda dająca w 9 na 10 przypadków
+ bardzo dobre wyniki. Podstawą jest posiadanie wsadu do kotła o dokładnie znanej mocy i objętości. Zatem znakomicie metoda sprawdza się w przypadku drugich destylacji 
+ rozcieńczonej surówki.
+
+Wzory Calyx'a
+
+Krok pierwszy. Wyznaczanie objętości alkoholu (w przeliczeniu na 100%) w nastawie.
+Ilość alko = objętość wsadu X moc
+Przykład dla nastawu Wallyb'a:
+26L X 17% = 4,42L
+
+Krok drugi. Wyznaczanie ilości podpałki.
+Ilość podpału = ilość alko X 5%
+Przykład dla nastawu Wallyb'a:
+4,42L X 5% = 0,221L
+
+Krok trzeci. Wyznaczanie ilości przedgonu.
+Ilość przedgonu = ilość alko X 10%
+Przykład dla nastawu Wallyb'a:
+4,42L X 10% = 0,442L
+
+Krok czwarty. Wyznaczanie ilości gonu.
+Ilość gonu = ilość alko X 85%
+Przykład dla nastawu Wallyb'a:
+4,42L X 85% = 3,757L
+
+Czyli Kolega Wally'b nie tylko nie za dużo odlał, ale nawet troszkę przyoszczędził...
+
+Zauważmy, że wzory opierają się na założeniu że odbieramy alkohol 100%. W rzeczywistości odbierzemy go o kilka (5 - 6 w zależności od sprawności kolumny) procent więcej.
+ Ale nie ma co się martwić. Te 5 - 6% to smrodliwe pogony!
+ 
+------------------------------------------------------------------------------------------------------------------
+Móje przemyślenia związane z poprednim komentarzem:
+
+Czyli  5% podpałka/ślepotka
+      10% przedgon
+      85% gon
+
+ale to już sumuje się do 100% całej zawartości alkoholu. Nie ma jakby miejsca na pogony.
+
+
+
+Może by zrobić tak (założenie, że każda z tych frakcji zawiera 100% "etanolu"):
+  5% ślepotka
+ 10% przedgon
+ 80% gon
+  5% pogon
+  
+Przykład na destylacji mieszanej pot-still/kolumnowa. Wsad: 5L 18% nastawu
+Zawartość alkoholu: 900ml
+ 5% =  45ml 100% ślepotki. Ale moja aparatura da 93% ślepotkę, więc będę jej musiał odebrać ciut więcej: 48ml
+10% =  90ml 100% przedgonu. Ale moja aparatura da 93% przedgon, więc będę go musiał odebrać ciut więcej: 97ml
+80% = 720ml 100% gonu. Ale serce będę odbierał na początku bez refluksu a potem z jakimś tam refluksem by temperatura na głowicy była ciągle ok 89 stopni. 
+                       Serce będzie miało wtedy moc ok 70%. Muszę go odebrać więcej: 1029ml
+ 5% =  45ml 100% pogonu. Pogony będą odbierane bez refluksu. Moc pogonów będzie spadać do zera, więc w sumie nie wiem ile mililitrów płynu wyjdzie. Z 200ml? Chyba trzeba
+                         będzie zakończyć odbiór pogonów na podstawie temperatury w kegu.
+
+Czyli z 5L nastawu będę miał ok 1L 70% bimbru.
+Czyli z 23L nastawu mirabelkowego powinienem mieć:
+
+Cztery pełne destylacje 5cio litrowych wsadów: 4L 70% bimberku, 200ml podpałki, 400ml przedgonu i jakiś 1L pogonów (?)
+Pogony dodam do ostatniej destylacji tych 3L nastawu i z tego będe miał jeszcze
+                                               ok. 1L 70% bimberku, 50ml podpałki
+Czyli z 23L 18% nastawu mirabelkowego (wzmocnionego cukrem) będzie ok 5L 70% alkoholu. W sam raz kurde na jakieś nalewki owocowe. Chociaż posmaki mirabelek mogą
+mieć wpływ na smak tych nalewek.
+
+
+Teraz policzmy koszty: 5L 70% alkoholu to 3,5L 100% spirytusu. 0,5L spirytusu 96% kosztuje z 45zł. Czyli koszt 3,5L 100% spirytusu (już nie robię przeliczenia z 100% na 96%)
+to 7 flaszek półlitrowych, czyli 7 * 45zł = 315zł.
+
+------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
