@@ -1,0 +1,84 @@
+
+Śruba powietrza. Stan początkowy: wkręcona do oporu i wykręcona na trzy obroty. I potem mamy:
+
+a) wykręcanie - zwiększa obroty biegu jałowego
+b) wkręcanie zmniejsza obroty biegu jałowego
+
+
+Śruba mieszanki. Stan początkowy: wkręcona do oporu i wykręcona na trzy obroty. I potem mamy:
+a) wkręcanie - zwiększa obroty biegu jałowego
+b) dalsze wkręcanie - zmniejsza obroty biegu jałowego
+
+hineindrehen - wkręcać
+herausdrehen - wykręcać
+
+
+W regulacji gaźnika chodzi o to, by odpowiednio usatwić śruby regulacyjne w ten sposób aby mniej więcej zapewnić minimalną dawkę paliwa
+zapewniającą spokojną, stabilną i regularną pracę silnika na biegu jałowym. W tym celu wychodzimy od pewnego stanu początkowowego - niezbyt
+optymalnego - gdzie ilość paliwa jest zbyt duża. Należy mieć na uwadze dwie rzeczy:
+a) generalna ilość paliwa podlegająca spalaniu w komorze silnika. Jak go będzie za dużo, to będzie zalewać swiecę zapłonową. Jak go będzie za mało
+ to będzie za mało siły utrzymującej wolne obroty.
+b) ilość paliwa w stosunku do powietrza, czyli skład mieszanki paliwowo-powietrznej. Jak udział paliwa będzie zbyt duży w porównaniu do powietrza,
+to mieszanka nie będzie produkować optymalnej siły napędowej. Jak udział paliwa będzie zbyt mały, to mogą być problemy z wchodzeniem silnika\
+na wyższe obroty.
+
+Zazwyczaj są dwie śruby regulacyjne:
+a) jedna ma bezpośredni wpływ na ilość paliwa w mieszance. Nazwijmy tę śrubę "śrubą paliwa".
+b) druga ma bezpośredni wpływ na ilość powietrza w mieszance. Nazwijmy tę śrubę "śrubą powietrza".
+
+Aby poprawnie wyregulować gaźnik należy wyjść od stanu początkowego, w którym dawkowana jest zbyt duża ilość paliwa. Idea jest taka, aby naprzemiennie pokręcać
+śrubami powietrza i paliwa (wkręcając lub wykręcając je - zależnie od konstrukcji gaźnika), by ustalić pewną minimalną dawkę dozowanego paliwa. Robimy jak poniżej:
+a) w stanie początkowym należy śrubą powietrza zmniejszyć dawkę powietrza. Obroty silnika powinny spaść, ale należy zachować jeszcze miarową pracę silnika.
+   Udział powietrza w mieszance został zmniejszony.
+b) śrubą paliwa zmniejszyć udział paliwa w mieszance. Obroty silnika powinny wtedy rosnąć. Należy tak pokręcać śrubą paliwa, aż do uzyskania
+   maksymalnej możliwej liczby obrotów. Postępując z dalszym pokręcaniem śruby paliwa obroty silnika powinny spadać, gdyż udział paliwa w mieszance robi się
+   coraz bardziej znikomy i wybuch mieszanki nie zapewnia już odpowiedniej siły do utrzymania obrotów silnika. Pamiętajmy, że komora spalania ma określoną
+   pojemność (im więcej zadawkowanego powietrza, tym mniej miejsca na paliwo). Jeżeli przy pokręcaniu śrubą paliwa obroty zaczęły spadać (a uprzednio rosły),
+   to znaczy, że już dalej nie powinno się pokręcać śrubą paliwa. Trzeba uzyskać maksymalne obroty silnika.
+c) wracamy do śruby powietrza i zmniejszamy jego udział w mieszance, obroty wtedy zaczną spadać. Pokręcać śrubą do uzyskania odpowiedniej liczby wolnych 
+   obrotów (900 obrotów na minutę? czy większa? Nie wiem - do sprawdzenia!)
+   
+
+
+Teraz konkretny przykład regulacji gaźnika 16N3:
+
+Śruba paliwa - nazywana "śrubą mieszanki". Jej wkręcanie zmniejsza udział paliwa w mieszance, zaś jej wykręcanie zwiększa udział paliwa.
+Śruba powietrza kanału obejściowego. Jej wkręcanie zmniejsza udział powietrza w mieszance, zaś jej wykręcanie zwiększa udział powietrza.
+
+1. Zapinkę iglicy ustawić w położenie środkowe.
+2. Ustawić stan początkowy śruby paliwa: wkręcić do oporu a potem wykręcić o 3 obroty.
+3. Ustawić stan początkowy śruby powietrza: wkręcić do oporu i wykręcić o 3 obroty.
+4. Przejechać się maszyną ze 2km, żeby "rozgrzać silnik"
+5. Wkręcać z umiarem śrubę powietrza (obroty silnka będą spadać) do uzyskania jeszcze miarowej pracy silnika
+6. Wkręcać z umiarem śrubę mieszanki do uzyskania możliwie największych obrotów silnika
+5. Pokręcąć (raczej wkręcanie) z umiarem śrubę powietrza do uzyskania pożądanych wolnych obrotów silnika.
+
+
+Teraz konkretny przykład regulacji gaźnika 16N1:
+
+Śruba paliwa - nazywana "śrubą mieszanki". Jej wkręcanie zwiększa udział paliwa w mieszance, zaś jej wykręcanie zmniejsza udział paliwa.
+Śruba przepustnicy. Reguluje położenie głównej przepustnicy. Jej wkręcanie podnosi przepustnicę przez co zmiększa się udział powietrza w mieszance.
+Być może, że wraz z wkręcaniem śruby zwiększa się również udział dawkowaneo paliwa - mam podejrzenie, że ustawienie zapinki iglicy ma tutaj na to wpływ.
+Jeżeli iglica jest niżej, to prawdopodobnie podwyższanie przepustnicy będzie miało większy wpływ na dawkowanie powietrza aniżeli na dawkowanie paliwa. 
+Wykręcanie śruby zmniejsza udział powietrza w mieszance (i prawdopodobnie też zmniejsza udział paliwa).
+
+1. Zapinkę iglicy ustawić w położenie środkowe.
+2. Niestety nie wiem, jakie powinno być ustawienie początkowe śrub. Prawdopodobnie jest jakieś, że motor odpali i da radę się nim przejechać by rozgrzać
+silnik.
+3. Trzeba przejechać się ze 2km by rozgrzać silnik.
+4. Na wolnych obrotach silnik nie powinien gasnąć. Jeśli jest sytuacja, że silnik już prawie chce zgasnąć to należy wkręcić trochę śrubę przepustnicy.
+   Obroty silnika powinny wtedy wzrosnąć.
+5. Trzeba teraz wkręcać śrubę paliwa. Obroty silnika będą spadać. Docelowo musimy wkręcić tę śrubę do oporu. Jeżeli obroty będą spadać na tyle, że silnik
+   będzie chciał zgasnąć to trzeba jednocześnie trochę wkręcić śrubę przepustnicy, co podwyższy trochę obroty. Trzeba tak pokręcać śrubami, by w efekcie
+   końcowym śruba mieszanki była całkowicie wkręcona. W takim położeniu gaźnik dostarcza dużą ilość paliwa (nawet za dużą).
+6. Spróbować wykręcić troszkę śrubę przepustnicy by obniżyć obroty i uzyskać stabilną pracę silnika.
+7. Wykręcać powoli śrubę mieszanki do uzyskania możliwie dużych obrotów silnika. Jeżeli przy dalszym wykręcaniu śruby obroty nie zmieniają się (lub zaczną
+   spadać) to znaczy, że śruba jest już wykręcona za mocno i trzeba ją z powrotem troszkę wkręcić.
+8. Wykręcać śrubę przepustnicy aby obniżyć obroty i uzyskać miarową pracę silnika. Jaka powinna być liczba obrotów na biegu jałowym? 1200 obr/minutę?
+   Nie wiem. Trzeba sprawdzić w książce.
+9. Jeżeli silnik będzie słabo wkręcał się na wysokie obroty (przy odkręcaniu manetki gazu) to można wkręcić śrubę przepustnicy o 1/4 lub 1/2 obrotu
+   by zwiększyć obroty biegu jałowego.
+   
+   
+    
+
