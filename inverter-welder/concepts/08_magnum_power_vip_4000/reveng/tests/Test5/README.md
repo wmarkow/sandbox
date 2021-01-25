@@ -1,5 +1,7 @@
 # Test 5: check how output voltage changes with additional PWM signal on pin 9 of SG3525A when no load attached to the welder
 
+Date of test: 23th November 2020 \
+ \
 Build an external PWM generator using Arduino, just like the one in [this test](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/Test5/README.md)
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test5/05_external_pwm_circuit.png" width="40%" >

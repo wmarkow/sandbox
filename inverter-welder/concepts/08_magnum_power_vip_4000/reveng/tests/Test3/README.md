@@ -1,5 +1,7 @@
 # Test 3: check how voltages of pin 11 of SG3525A and pin 5 of VT1 chip changes with SG3525A pin 8 (Soft-Start)
 
+Date of test: 16th November 2020 \
+ \
 Attach a 100k variable resistor between ground and Soft-Start (pin 8) pin of SG3525A. \
 Attach one scope to pin 11 of SG3515A. \
 Attach second scope to pin 5 of VT1 chip. \

@@ -1,5 +1,7 @@
 # Test 2: check how voltages of pin 11 of SG3525A and pin 4 of VT1 chip changes with SG3525A pin 8 (Soft-Start)
 
+Date of test: 16th November 2020 \
+ \
 Chip VT1 (and also VT2) is probably a half bridge with two MOSFETs. Both chips create a H-bridge which drives the coil voltage.\
 The voltage from this coil is used later to drive the IGBT transistors.
 
