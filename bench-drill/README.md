@@ -20,7 +20,7 @@ Kilka informacji z noty katalogowej:
  * Waga urządzenia: Ok. 14.9 g
  
  
-Po wykonaniu kilku otworów (zarówno w drewnie jak i w miękkej podkładce stalowej), mogę wskazać pierwsze wady i zalety urządzenia:
+Po wykonaniu kilku otworów (zarówno w drewnie jak i w miękkiej podkładce stalowej), mogę wskazać pierwsze wady i zalety urządzenia:
 * zalety
   * 9-cio stopniowa regulacja obrotów (500-2500 min⁻¹)
   * cicha praca
@@ -57,21 +57,19 @@ Jeżeli chodzi o wady to najbardziej daje sie we znaki słaba sztywność konstr
 * mała moc silnika: 500W - w obecnej chwili to nie stanowi dla mnie zbyt dotkliwej wady
 
   
-Jako, że nie lubię być gołosłowny, postaram się empirycznie zmierzyć wielkość wad konstrukcyjnych i spróbować w jakiś sposób je zmniejszyć
-lub wyeliminować. Nadmienię fakt: w drewnie wierci się wiertarką dobrze. Z cienkim metalem (blacha 3mm) też sobie radzi ale szału nie ma.
-Na samym poczatku polecam pod stolik podstawic jakiś kołek z twardego drewna, żeby zmniejszyć ugięcie na samym stoliku i jego połączeniu
-z kolumną; to naprawdę pomaga.
+Postaram się empirycznie zmierzyć wielkość wad konstrukcyjnych i spróbować w jakiś sposób je zmniejszyć lub wyeliminować. 
+Nadmienię fakt: w drewnie wierci się wiertarką dobrze. Z cienkim metalem (blacha 3mm) też sobie radzi.
+Na samym poczatku polecam pod stolik podstawic jakiś klocek z twardego drewna, żeby zmniejszyć ugięcie na samym stoliku i jego połączeniu
+z kolumną; to na prawdę pomaga.
 
 Do dzieła:
-* sztywność konstrukcji: stolik-kolumna
+* [sztywność konstrukcji: stolik-kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/table-column/README.md)
 * sztywność konstrukcji: kolumna
 * sztywność konstrukcji: stopa
 * sztywność konstrukcji: stopa-kolumna
 * sztywność konstrukcji: gondola-kolumna
 * luz gilzy
   
-  
-
    
  
 

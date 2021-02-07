@@ -1,0 +1,1 @@
+# Sztywność konstrukcji: stolik-kolumna
