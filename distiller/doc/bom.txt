@@ -5,7 +5,7 @@
  26 PLN - MATERIAŁ : złączka podwójna do rury 54mm (połączenie 20cm kolumny z głowicą oraz owijka korka głowicy)
  24 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   2mm : flansza do rury i okrągła część korka górnego
  15 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   1mm : blaszki do kierowania skroplin w jeziorko
-  7 PLN - MATERIAŁ : 2 trójniki plastikowe fi zew 12 (używane do ogrodowych linii kroplujących): zasilanie i powrót wody w chłodnicy + gniazda dla termometrów DS18B20 do pomiaru temperatur wody
+ 37 PLN - MATERIAŁ : złączki plastikowe (trójniki, kolanka, redukcje): zasilanie i powrót wody w chłodnicy + gniazda dla termometrów DS18B20 do pomiaru temperatur wody
  22 PLN - NARZĘDZIE: otwornica nastawna 30-120mm do wiercenia otworów lub wycinania kół
  23 PLN - NARZĘDZIE: palnik gazowy z kartuszem
  16 PLN - NARZĘDZIE: drobny brzeszczot do metalu z uchwytem
@@ -13,7 +13,8 @@
   9 PLN - MATERIAŁ : topnik do lutowania miekkiego
  25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
   7 PLN - MATERIAŁ : zawór wciskany 8 mm dwukierunkowy
- 
+  8 PLN - MATERIAŁ : obejmy stalowe 56-59mm do łączenia głównej rury miedzianej
+ 12 PLN - MATERIAŁ : obejmy stalowe małe (7-9mm, 9-11mm, 13-15mm) do układu chłodzenia
  
 --------
-305 PLN  Razem
+355 PLN  Razem
