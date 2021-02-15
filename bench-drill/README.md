@@ -5,6 +5,9 @@ bardziej precyzyjne otwory.
 
 Pomimo wielu różnych opinii, zakupiłem niedawno w Lidlu wiertarkę **PTBM 500** firmy **Parkside**. Koszt zakupu to 339 zł.
 
+
+<img src="https://github.com/wmarkow/sandbox/tree/master/bench-drill/parkside.jpg" width="60%" >
+
 Kilka informacji z noty katalogowej:
  * Producent: Parkside
  * Model: PTMB 500 E5
