@@ -1,17 +1,19 @@
+ NARZĘDZIA:
 
- 40 PLN - MATERIAŁ : 5 metrów rurki miedzianej o średnicy zewnetrznej 5mm i średnicy wewnetrznej 3mm : na chłodnicę                                                                   
   5 PLN - NARZĘDZIE: 50cm plastikowej rurki kanalizacyjnej o średnicy zewnetrznej 32mm + 1m wałka drewnianego o średnicy zewnetrznej 16mm : do nawijania chłodnicy
- 70 PLN - MATERIAŁ : 54mm x 1.5mm 50cm długa rura miedziana (na 20cm kolumny z wypełnieniem i 30cm na głowicę)
- 26 PLN - MATERIAŁ : złączka podwójna (mufa) do rury 54mm (połączenie 20cm kolumny z głowicą oraz owijka korka głowicy)
- 24 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   2mm : flansza do rury i okrągła część korka górnego
- 15 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   1mm : blaszki do kierowania skroplin w jeziorko
- 37 PLN - MATERIAŁ : złączki plastikowe (trójniki, kolanka, redukcje): zasilanie i powrót wody w chłodnicy + gniazda dla termometrów DS18B20 do pomiaru temperatur wody
  22 PLN - NARZĘDZIE: otwornica nastawna 30-120mm do wiercenia otworów lub wycinania kół
  23 PLN - NARZĘDZIE: palnik gazowy z kartuszem
  16 PLN - NARZĘDZIE: drobny brzeszczot do metalu z uchwytem
- 16 PLN - MATERIAŁ : 100g cyny do lutowania o średnicy 1.2mm
-  9 PLN - MATERIAŁ : topnik do lutowania miekkiego
- 25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
+ 16 PLN - NARZĘDZIE: 100g cyny do lutowania o średnicy 1.2mm
+  9 PLN - NARZĘDZIE: topnik do lutowania miekkiego
+ -------
+ 91 PLN
+ 
+ 
+ CHŁODNICA I UKŁAD CHŁODZENIA:
+ 
+ 40 PLN - MATERIAŁ : 5 metrów rurki miedzianej o średnicy zewnetrznej 5mm i średnicy wewnetrznej 3mm : na chłodnicę
+ 37 PLN - MATERIAŁ : złączki plastikowe (trójniki, kolanka, redukcje): zasilanie i powrót wody w chłodnicy + gniazda dla termometrów DS18B20 do pomiaru temperatur wody
   7 PLN - MATERIAŁ : zawór kulowy wciskany 8 mm dwukierunkowy
   8 PLN - MATERIAŁ : obejmy stalowe 56-59mm do łączenia głównej rury miedzianej
  12 PLN - MATERIAŁ : obejmy stalowe małe (7-9mm, 9-11mm, 13-15mm) do układu chłodzenia. Bardzo fajne skręcane na śrubę (nie ślimakowe).
@@ -21,10 +23,30 @@
   9 PLN - MATERIAŁ : 1m wąż zbrojony 12.5mm (z Castoramy) na połączenia pomiędzy złączkami
   9 PLN - MATERIAŁ : złączka przewodu miedzianego 6mm - do zamontowania chłodnicy do kapturka oraz przyłącza chłodniczego
  14 PLN - MATERIAŁ : perlator (z wężem) do zlewu kuchennego w celu łatwego przyłączenia zasilania wody chłodzącej (Bricomarche)
+--------
+172 PLN
+ 
+ 
+ KOLUMNA:
+ 
+ 70 PLN - MATERIAŁ : 54mm x 1.5mm 50cm długa rura miedziana (na 20cm kolumny z wypełnieniem i 30cm na głowicę)
+ 26 PLN - MATERIAŁ : złączka podwójna (mufa) do rury 54mm (połączenie 20cm kolumny z głowicą oraz owijka korka głowicy)
+ 24 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   2mm : flansza do rury i okrągła część korka górnego
+ 15 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   1mm : blaszki do kierowania skroplin w jeziorko
+--------
+135 PLN
+
+
+ ELEKTRONIKA:
+
+ 25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
  28 PLN - MATERIAŁ : 4 czujniki temperatury DS18B20
  34 PLN - MATERIAŁ : Wemos D1 UNO R32 na ESP32 - platforma kompatybilna z Arduino. Zaleta: posiada Bluetooth 4 i można będzie połączyć się z aplikacją Android
   4 PLN - MATERIAŁ : PUSZKA HERMETYCZNA IP54 98x98x41mm V03705 CZARNA jako obudowa do Arduino
  11 PLN - MATERIAŁ : 5 gniazd stereo mini jack, jako sloty do podłączenia czterech termometrów i czujnika przepływu wody chłodzącej
  13 PLN - MATERIAŁ : 5 wtyków stereo mini jack, jako wtyczki czterech termometrów i czujnika przepływu wody chłodzącej
 --------
-513 PLN  Razem
+115 PLN
+
+
+513 PLN Razem
