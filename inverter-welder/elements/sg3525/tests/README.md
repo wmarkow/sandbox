@@ -30,14 +30,14 @@ For all tests keep in mind:
    * the signal on top comes from pin 11 (Output A)
    * the signal on bottom comes from pin 14 (Output B)
 
-## [Test 1: error amplifier configured as comparator](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test1/README.md)
+## [Test 1: error amplifier configured as comparator](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test1/README.md)
 
-## [Test 2: error amplifier configured as a voltage follower](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test2/README.md)
+## [Test 2: error amplifier configured as a voltage follower](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test2/README.md)
 
-## [Test 3: shutdown by pull down compensation pin](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test3/README.md)
+## [Test 3: shutdown by pull down compensation pin](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test3/README.md)
 
-## [Test 4: limit PWM duty cycle with Soft-Start pin](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test4/README.md)
+## [Test 4: limit PWM duty cycle with Soft-Start pin](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test4/README.md)
 
-## [Test 5: pull down compensation pin with external PWM signal](https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/elements/sg3525/tests/Test5/README.md)
+## [Test 5: pull down compensation pin with external PWM signal](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test5/README.md)
 
- 
+## [Test 6: limit PWM duty cycle with Compensation pin](https://github.com/wmarkow/sandbox/tree/master/inverter-welder/elements/sg3525/tests/Test6/README.md)
