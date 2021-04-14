@@ -2996,10 +2996,10 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </classes>
 <parts>
 <part name="P1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="1k"/>
-<part name="VR2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="500"/>
+<part name="VR3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="500"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="VR1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="10k"/>
-<part name="VR3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="500"/>
+<part name="VR2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="500"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="15.8V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
@@ -3009,6 +3009,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
+<text x="116.84" y="53.34" size="1.778" layer="97">do czerwonego przewódu nastawy prądu</text>
+<text x="116.84" y="50.8" size="1.778" layer="97">do czarnego przewódu nastawy prądu</text>
+<text x="116.84" y="48.26" size="1.778" layer="97">do zielonego przewódu nastawy prądu</text>
 </plain>
 <instances>
 <instance part="P1" gate="/1" x="45.72" y="50.8" smashed="yes">
@@ -3019,7 +3022,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <attribute name="NAME" x="82.931" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="85.09" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VR2" gate="1" x="88.9" y="66.04" smashed="yes">
+<instance part="VR3" gate="1" x="88.9" y="66.04" smashed="yes">
 <attribute name="NAME" x="82.931" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="85.09" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -3031,7 +3034,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <attribute name="NAME" x="39.751" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="41.91" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VR3" gate="1" x="38.1" y="33.02" smashed="yes">
+<instance part="VR2" gate="1" x="38.1" y="33.02" smashed="yes">
 <attribute name="NAME" x="32.131" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="34.29" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -3060,7 +3063,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="101.6" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="VR2" gate="1" pin="S"/>
+<pinref part="VR3" gate="1" pin="S"/>
 <wire x1="93.98" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="66.04" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -3087,7 +3090,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="VR3" gate="1" pin="A"/>
+<pinref part="VR2" gate="1" pin="A"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3099,7 +3102,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="VR3" gate="1" pin="S"/>
+<pinref part="VR2" gate="1" pin="S"/>
 <pinref part="P1" gate="/1" pin="A"/>
 <wire x1="43.18" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
@@ -3128,7 +3131,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="P1" gate="/2" pin="E"/>
-<pinref part="VR2" gate="1" pin="A"/>
+<pinref part="VR3" gate="1" pin="A"/>
 <wire x1="88.9" y1="55.88" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
