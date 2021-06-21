@@ -52,3 +52,20 @@ Krótki komentarz do wyników:
  * gdy stolik był podparty klockiem to zaobserwowałem, że w dalszej kolejności najsłabszym ogniwiem konstrukcji jest stopa-kolumna lub sama kolumna.
  Kiedy stolik nie mógł już się uginać (bo był podpraty klockiem) to zaczęła wyginać się kolumna lub miejsce styku kolumny ze stopą.
  * aby poprawić w większym stopniu sztywność należałoby przyjrzeć się kolumnie i jej połączeniu ze stopą
+
+Poniżej przedstawiam schemat pomiarów w postaci szkicu technicznego:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/schema.jpg" width="60%" >
+</p>
+
+W środku kolumny w odległości **l** od górnego i od dolnego jej mocowania znajduje się czujnik zegarowy, który mierzy
+zmianę odległości **x** pomiędzy środkem kolumny a wiertłem łopatkowym zamontowanym w uchwycie wiertarskim. Na korbę działa
+siła nacisku **F**. Stoilk się ugina. Wielkości **y** i **x** zwiększają się o **dy** i **dx**. Jeżeli by założyć, że sama
+kolumna się nie ugina (co nie jest do końca prawdą) to można by utworzyć trójkąt prostokątny z odcinków **dx** i **l+dy**.
+Wtedy można policzyć wartość ugięcia w stopniach, czyli o ile stopni będzie uciekać wiertło od pionu. W mianowniku wzoru
+na tangens kąta **alfa** występuje suma **l+dy**. Jeżeli założyć, że zmiana **dy** jest bardzo mała w porównaniu z **l**
+(a tak z pewnością jest: **dx** odgina się i około 2mm, więc **dy** też ma wartości podobne), to można w mianowniku 
+pominąć czynnik **dy** i obliczyć w bardzo prosty sposób kąt ugięcia uwzględniając tylko wielkości **l** i **dx**.
+Niepodparty stolik przy sile nacisku 10kG odchyla się wtedy o 0.86 stopnia (odchył 0.15mm na każde 10mm w głąb wierconego materiału).
+Podparty stolik przy tej samej sile nacisku odchyla się już tylko o 0.52 stopnia (odchył 0.09mm na każde 10mm w głąb wierconego materiału).
