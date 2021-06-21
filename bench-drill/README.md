@@ -32,7 +32,7 @@ Po wykonaniu kilku otworów (zarówno w drewnie jak i w miękkiej podkładce sta
 * wady
   * przede wszystkim słaba sztywność konstrukcji: stopa, stopa-kolumna, kolumna, stolik-kolumna, gondola-kolumna
   * luz gilzy
-  * rezonanst klapy przekładni
+  * rezonans klapy przekładni
   * tryb pracy **S2 15 min** silnika, po 15 minutach pracy ciągłej trzeba odczekać by silnik ostygł (nie wiem, jak długo trzeba czekać)
   * mała moc silnika, 500W może się okazać zbyt małe przy niektórych pracach
   
