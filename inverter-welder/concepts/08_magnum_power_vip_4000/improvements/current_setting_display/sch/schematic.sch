@@ -3009,7 +3009,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
-<text x="116.84" y="53.34" size="1.778" layer="97">do czerwonego przewódu nastawy prądu</text>
+<text x="116.84" y="53.34" size="1.778" layer="97">do czerwonego przewodu nastawy prądu</text>
 <text x="116.84" y="50.8" size="1.778" layer="97">do czarnego przewódu nastawy prądu</text>
 <text x="116.84" y="48.26" size="1.778" layer="97">do zielonego przewódu nastawy prądu</text>
 </plain>
