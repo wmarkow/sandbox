@@ -38,21 +38,21 @@ Po wykonaniu kilku otworów (zarówno w drewnie jak i w miękkiej podkładce sta
   
   
 Jeżeli chodzi o wady to najbardziej daje sie we znaki słaba sztywność konstrukcji. Kilka moich przemyśleń związaych z wadami:
-* sztywność konstrukcji: **stopa**, czyli podstawa całego urządzenia. Jest wykonana chyba jako odcisk z blachy <wstawić grubość blachy>
+* sztywność konstrukcji: **stopa**, czyli podstawa całego urządzenia. Jest wykonana chyba jako odcisk z blachy 2.6 mm
   Stopa nie ma konstrukcji żeberkowej i wydaje mi się, że ugina się ona nieco przy większym nacisku wiertła. Ugięcie występuje w środkowej
   części stopy (kilka centymetrów przed kolumną) oraz w miejscu łączenia kolumny ze stopą.
-* sztywność konstrukcji: **stopa-kolumna**, połączenie stopy z kolumną jest na zasadzie kołnierza metalowego. W kołnierz jest wciśnięta
-  kolumna a sam kołnierz jest przykręcony do stopy za pomocą trzech śrub. Sam kołnierz jest niski; ma tylko <wstawić wysokość kołnierza> mm
+* sztywność konstrukcji: **stopa-kolumna**, połączenie stopy z kolumną jest na zasadzie kołnierza metalowego (wykonanego chyba z aluminium). W kołnierz jest wciśnięta
+  kolumna a sam kołnierz jest przykręcony do stopy za pomocą trzech śrub. Sam kołnierz jest niski; ma tylko 25 mm
   wysokości. Przy większym docisku narzędzia do materiału obrabianego można mieć wrażenie, jakby kolumna się uginała w kołnierzu (ale to może
   być tylko takie wrażenie).
-* sztywność konstrukcji: **kolumna**, kolumna jest rurą o wysokości <wstawić liczbę> mm i średnicy zewnętrznej <wstawić liczbę> mm,
-  średnicy wewnętrznej <wstawić liczbę> mm. Niestety grubość jej ścianki jest tylko <wstawić liczbę> mm, co może mieć swój negatywny skutek:
+* sztywność konstrukcji: **kolumna**, kolumna jest rurą o wysokości 435 mm i średnicy zewnętrznej 45.85 mm,
+  średnicy wewnętrznej 43 mm. Niestety zmierzona grubość jej ścianki jest tylko 1.2 mm, co może mieć swój negatywny skutek:
   kolumna jest podatna na wyginanie się.
-* sztywność konstrukcji: **stolik-kolumna**, stolik jest też chyba wykonany jako odcisk z blachy o grubości <wstawić liczbę> mm. Stolik
-  jest montowany do kolumny za pomocą kołnierza o wysokości <wstawić liczbę> mm zaciskanego za pomocą śruby. Stolik jest także przechylny
+* sztywność konstrukcji: **stolik-kolumna**, stolik jest też chyba wykonany jako odcisk z blachy o grubości 2.6 mm. Stolik
+  jest montowany do kolumny za pomocą kołnierza o wysokości 45 mm zaciskanego za pomocą śruby. Stolik jest także przechylny
   czyli można go ustawiać pod pewnym kątem do poziomu. Taka dodatkowa funkcjonalność ma swój wpływ na zmniejszenie sztywności konstrukcji.
   Uważam, że stolik ten jest jedną z największych wad tej wiertarki: ugina się bardzo łatwo.
-* sztywność konstrukcji: **gondola-kolumna**. Gondola jest osadzona na kolumnie za pomocą zintegrowanego kołnierza o długości <wstawić liczbę> mm
+* sztywność konstrukcji: **gondola-kolumna**. Gondola jest osadzona na kolumnie za pomocą zintegrowanego kołnierza o długości 64 mm
   i zaciskanego dwoma śrubami. Odnosze wrażenie, że to połączenie jest dosyć solidne i ma najmniejszy negatywny wpływ na sztywność całej konstrukcji.
 * luz na gilzie jest znaczny (ok 1-2 mm?). W urządzeniu jest dostępna śruba kasująca luz, ale nie jestem zbyt optymistycznie do niej przekonany.
 * czasami pokrywa kół pasowych wpada w rezonans i słychać nieprzyjemny jej stukot o resztę obudowy. Dzieje się tak przy pewnych kombinacjach
