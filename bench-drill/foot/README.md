@@ -1,4 +1,4 @@
-# Sztywność konstrukcji: stolik-kolumna
+# Sztywność konstrukcji: stopa
 
 Stopa wydaje sie być mocna ale niestety nie ma ona zbyt dobrej konstrukcji żeberkowej, przez co mam wrażenie że się ona odgina.
 Postanowiłem dokonać ulepszenia i wspawać wzdłuż stopy dwa płaskowniki stalowe.
