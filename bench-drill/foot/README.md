@@ -9,8 +9,8 @@ Zdjęcie orginalnej stopy:
   <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/foot/foot_before.jpg" width="60%" >
 </p>
 
-Płaskowniki o grubości 5mm i długości ok 32cm. jeden z nich ma szerokość 40mm a drugi 25mm (akurat takie posiadałem pod ręką).
-Zostały on przyciete na wymiar by jak najlepiej pasowały do blachy stopy.
+Płaskowniki o grubości 5mm i długości ok 32cm. Jeden z nich ma szerokość 40mm a drugi 25mm (akurat takie posiadałem pod ręką).
+Zostały on przycięte na wymiar by jak najlepiej pasowały do blachy stopy.
 Po zespawaniu wygląda to tak:
 <p align="center">
   <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/foot/foot_after.jpg" width="60%" >
@@ -18,11 +18,11 @@ Po zespawaniu wygląda to tak:
 Spoiny nie były nakładana na całej długości płaskowników. Nakładałem je na odcinkach o długości ok 2cm symetrycznie po obu stronach
 każdego płaskownika.
 
-Aby sprawdzić czy płaskowniki usztywniaja kosnktrukcję, ponownie zbudowałem układ pomiarowy jak w 
+Aby sprawdzić czy płaskowniki usztywniają kosnktrukcję, ponownie zbudowałem układ pomiarowy jak w 
 [sztywność konstrukcji: stolik-kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/table-column/README.md)
-a skumulowany wynik jets w poniżeszej tabelce:
+a porównawczy wynik jest w poniżeszej tabelce:
 
-| Siła nacisku na korbę [kG] | Odchylenie bez klocka [mm]| Odchylenie z klockiem [mm]| Odchylenie ze wzmocnioną stopą[mm]|
+| Siła nacisku na korbę [kG] | Odchylenie bez klocka [mm]| Odchylenie z klockiem [mm]| Odchylenie ze wzmocnioną stopą [mm]|
 |---|---|---|---|
 |  0 | -0.08 | -0.08 | |
 |  1 |  0.00 |  0.00 | 0.00 |
