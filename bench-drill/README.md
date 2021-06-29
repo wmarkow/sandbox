@@ -77,7 +77,7 @@ Do dzieła:
 * sztywność konstrukcji: stopa-kolumna
 * sztywność konstrukcji: gondola-kolumna
 * luz gilzy
-* rezonans pokrywy kół pasowych
+* [rezonans pokrywy kół pasowych](https://github.com/wmarkow/sandbox/tree/master/bench-drill/gear_box_resonance/README.md)
   
    
  
