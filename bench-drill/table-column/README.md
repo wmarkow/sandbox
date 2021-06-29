@@ -61,11 +61,12 @@ Poniżej przedstawiam schemat pomiarów w postaci szkicu technicznego:
 
 W środku kolumny w odległości **l** od górnego i od dolnego jej mocowania znajduje się czujnik zegarowy, który mierzy
 zmianę odległości **x** pomiędzy środkem kolumny a wiertłem łopatkowym zamontowanym w uchwycie wiertarskim. Na korbę działa
-siła nacisku **F**. Stoilk się ugina. Wielkości **y** i **x** zwiększają się o **dy** i **dx**. Jeżeli by założyć, że sama
-kolumna się nie ugina (co nie jest do końca prawdą) to można by utworzyć trójkąt prostokątny z odcinków **dx** i **l+dy**.
+siła nacisku **F**. Stoilk się ugina. Wielkości **y** i **x** zwiększają się o **Δy** i **Δx**. Jeżeli by założyć, że sama
+kolumna się nie ugina (co nie jest do końca prawdą) to można by utworzyć trójkąt prostokątny z odcinków **Δx** i **l+Δy**.
 Wtedy można policzyć wartość ugięcia w stopniach, czyli o ile stopni będzie uciekać wiertło od pionu. W mianowniku wzoru
-na tangens kąta **alfa** występuje suma **l+dy**. Jeżeli założyć, że zmiana **dy** jest bardzo mała w porównaniu z **l**
-(a tak z pewnością jest: **dx** odgina się i około 2mm, więc **dy** też ma wartości podobne), to można w mianowniku 
-pominąć czynnik **dy** i obliczyć w bardzo prosty sposób kąt ugięcia uwzględniając tylko wielkości **l** i **dx**.
+na tangens kąta **alfa** występuje suma **l+Δy**. Jeżeli założyć, że zmiana **Δy** jest bardzo mała w porównaniu z **l**
+(a tak z pewnością jest: **x** odgina się i około 2mm, a **Δy** też ma wartości podobne - można to zauważyć na wysuwającej się gilzie
+z kołnierza podczas większej siły nacisku), to można w mianowniku pominąć czynnik **Δy** i obliczyć w bardzo prosty sposób kąt ugięcia 
+uwzględniając tylko wielkości **l** i **Δx**.
 Niepodparty stolik przy sile nacisku 10kG odchyla się wtedy o 0.86 stopnia (odchył 0.15mm na każde 10mm w głąb wierconego materiału).
 Podparty stolik przy tej samej sile nacisku odchyla się już tylko o 0.52 stopnia (odchył 0.09mm na każde 10mm w głąb wierconego materiału).
