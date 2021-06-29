@@ -72,8 +72,8 @@ z kolumną; to na prawdę pomaga.
 
 Do dzieła:
 * [sztywność konstrukcji: stolik-kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/table-column/README.md)
+* [sztywność konstrukcji: stopa](https://github.com/wmarkow/sandbox/tree/master/bench-drill/foot/README.md)
 * sztywność konstrukcji: kolumna
-* sztywność konstrukcji: stopa
 * sztywność konstrukcji: stopa-kolumna
 * sztywność konstrukcji: gondola-kolumna
 * luz gilzy
