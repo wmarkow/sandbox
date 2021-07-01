@@ -7,13 +7,13 @@ Układ pomiarowy przedstawiony jest na rysunkach poniżej.
 W wersji stolika bez podparcia:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test-setup-1a.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test_setup_1a.jpg" width="60%" >
 </p>
 
 i w wersji, gdzie stolik jest podparty sosnowym klockiem:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test-setup-1b.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test_setup_1b.jpg" width="60%" >
 </p>
 
 Czujnik zegarowy jest zamocowany do podstawy stolika, za wiertłem łopatkowym. Mierzy on odchylenie od kolumny.
