@@ -76,7 +76,7 @@ Do dzieła:
 * sztywność konstrukcji: kolumna
 * sztywność konstrukcji: stopa-kolumna
 * sztywność konstrukcji: gondola-kolumna
-* luz gilzy
+* [luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/backlash/README.md)
 * [rezonans pokrywy kół pasowych](https://github.com/wmarkow/sandbox/tree/master/bench-drill/gear-box-resonance/README.md)
   
    
