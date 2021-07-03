@@ -4,10 +4,11 @@
  22 PLN - NARZĘDZIE: otwornica nastawna 30-120mm do wiercenia otworów lub wycinania kół
  23 PLN - NARZĘDZIE: palnik gazowy z kartuszem
  16 PLN - NARZĘDZIE: drobny brzeszczot do metalu z uchwytem
- 16 PLN - NARZĘDZIE: 100g cyny do lutowania o średnicy 1.2mm
+ 16 PLN - NARZĘDZIE: 100g cyny do lutowania o średnicy 1.2mm (ta cyna okazuje się, że ma 40% Pb - nie będe jej używał)
+ 28 PLN - NARZĘDZIE: 70g Cyna bezołowiowa Q-Solder z topnikiem
   9 PLN - NARZĘDZIE: topnik do lutowania miekkiego
  -------
- 91 PLN
+119 PLN
  
  
  CHŁODNICA I UKŁAD CHŁODZENIA:
@@ -54,4 +55,4 @@
 115 PLN
 
 
-607 PLN Razem
+635 PLN Razem
