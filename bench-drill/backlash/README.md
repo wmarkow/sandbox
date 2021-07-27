@@ -83,23 +83,23 @@ i drugi do pomiaru luzu bocznego:
 <p align="center">
   <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/test_setup_2.jpg" width="60%" >
 </p>
-
+Uwaga: luz w obu przypadkach był mierzony w punkcie, jak to przedstawiono na fotografii do pomiaru luzu bocznego.
 
 Wyniki pomiarów w poniższych tabelkach. Pomiary oznaczone **?** nie zostały wykonane.
 
 
 | Wysuw gilzy [mm] | Luz przód-tył bez śruby i bez blaszki Al [mm]| Luz przód-tył bez śruby ale z blaszką Al [mm]| Luz przód-tył ze śrubą i blaszką Al [mm]|
 |---|---|---|---|
-|  0 | 0.29 | 0.05 | ? |
-| 40 |    ? | 0.30 | ? |
-| 52 | 0.80 | 0.40 | ? |
+|  0 | 0.29 | 0.05 | 0.00 |
+| 40 |    ? | 0.30 | 0.20 |
+| 52 | 0.80 | 0.40 | 0.40 |
 
 
 | Wysuw gilzy [mm] | Luz boczny bez śruby i bez blaszki Al [mm]| Luz boczny bez śruby ale z blaszką Al [mm]| Luz boczny ze śrubą i blaszką Al [mm]|
 |---|---|---|---|
-|  0 | 0.22 | 0.01 | ? |
-| 40 |    ? | 0.25 | ? |
-| 52 | 0.60 | 0.25 | ? |
+|  0 | 0.22 | 0.01 | 0.00 |
+| 40 |    ? | 0.25 | 0.20 |
+| 52 | 0.60 | 0.25 | 0.30 |
 
 
 
