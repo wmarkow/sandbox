@@ -1,9 +1,9 @@
 # Sztywność konstrukcji: kolumna
 
-Kolumna jest wykonana z cienkiej blachy i zamocowana jest do stopy za pomocą aluminiowego kołnierza. Z tego względu jest ona podatna
+Kolumna jest wykonana z cienkiej rury i zamocowana jest do stopy za pomocą aluminiowego kołnierza. Z tego względu jest ona podatna
 na ugięcia. W Internecie można znaleźć porady na temat ulepszenia kolumny:
- * zalanie jej zbrojonym betonem (podać źródło - filmik na Youtube)
- * zastąpienie jej grubszą kolumną (podać źródło - filmik na Youtube)
+ * zalanie jej zbrojonym betonem (https://youtu.be/tErg_9uDvoE?t=916)
+ * zastąpienie jej grubszą kolumną (https://youtu.be/arZyzhOiV8U?t=211)
  
 
 Ja natomiast zrobię coś innego: usztywnie kolumnę wciskając w nią grubszą stalową rurę. Ponadto ta grubsza stalowa rura
