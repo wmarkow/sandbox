@@ -39,10 +39,22 @@
  26 PLN - MATERIAŁ : złączka podwójna (mufa) do rury 54mm (połączenie 20cm kolumny z głowicą)
  24 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   2mm : flansza do rury
  15 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   1mm : blaszki do kierowania skroplin w jeziorko
+ 24 PLN - MATERIAŁ : mosiężny nypel do wlutu 54 x 2 cale : mocowanie kolumny z garem (flanszy sam jednak nie będę robił)
+ 21 PLN - MATERIAŁ : mosiężna nakrętka kołnierzowa 2 cale : mocowanie kolumny z garem (flanszy jednak sam nie będe robił) 
+ 19 PLN - MATERIAŁ : 1m rurki 10/8 mm jako port termometru w głowicy (a potrzebne jest tylko 2cm takiej rurki, eh)
 --------
-135 PLN
+199 PLN
 
 
+ KOCIOŁ:
+ 
+ 14 PLN - MATERIAŁ : 1m rurki 8/6 mm jako gilza termometru (a potrzebne jest jakieś 20cm takiej rurki, eh)
+  2 PLN - MATERIAŁ : redukcja mosiężna 3/8 x 1/4 cala na port termometru
+  2 PLN - MATERIAŁ : mosiężny nypel redukcyjny 3/8 x 1/4 cala na port termometru
+--------
+ 18 PLN
+ 
+ 
  ELEKTRONIKA:
 
  25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
@@ -55,14 +67,14 @@
 115 PLN
 
 
-635 PLN Razem
+717 PLN Razem
 
 
 Koszt spirytusu sklepowego: 60zł za 0.5L 96% -> 120zł/L
 
-Amortyzacja sprzętu: 635 PLN / 120PLN/L = 5.3L spirytusu. Czyli trzeba przepędzić tak mniej więcej 35L nastawu 15%,
+Amortyzacja sprzętu: 717 PLN / 120PLN/L = 6L spirytusu. Czyli trzeba przepędzić tak mniej więcej 40L nastawu 15% (100 * 6L/15%),
 ale 0.7 części tego całego spirytusu to czyste serce (reszta to przedgony i pogony). Czyli w sumie by trzeba było
-przedestylować 50L nastawu o mocy 15%, żeby mieć 5.3L czystego spirytusu o mocy 100%.
+przedestylować 57L nastawu o mocy 15% (100 * 6L / 15 / 0.7), żeby mieć 6L czystego spirytusu o mocy 100%.
 
 
 

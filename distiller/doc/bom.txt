@@ -1,0 +1,78 @@
+ NARZĘDZIA:
+
+  5 PLN - NARZĘDZIE: 50cm plastikowej rurki kanalizacyjnej o średnicy zewnetrznej 32mm + 1m wałka drewnianego o średnicy zewnetrznej 16mm : do nawijania chłodnicy
+ 23 PLN - NARZĘDZIE: palnik gazowy z kartuszem
+  6 PLN - NARZĘDZIE: 14g Cyna bezołowiowa Q-Solder z topnikiem
+  9 PLN - NARZĘDZIE: topnik do lutowania miękkiego
+ -------
+ 43 PLN
+ 
+ 
+ CHŁODNICA I UKŁAD CHŁODZENIA:
+ 
+ 40 PLN - MATERIAŁ : 5 metrów rurki miedzianej o średnicy zewnetrznej 5mm i średnicy wewnetrznej 3mm : na chłodnicę
+ 16 PLN - MATERIAŁ : 4szt trójniki 12/12/12 mm : zasilanie i powrót wody w chłodnicy + gniazda dla termometrów DS18B20 do pomiaru temperatur wody
+ 12 PLN - MATERIAŁ : 4szt redukcje 12/8 mm : zasilanie i powrót wody w chłodnicy
+  8 PLN - MATERIAŁ : 2szt kolanko 6/8 mm : zasilanie i powrót wody w chłodnicy
+  6 PLN - MATERIAŁ : 2szt kolanko 6/6 mm : zasilanie i powrót wody w chłodnicy
+  7 PLN - MATERIAŁ : zawór kulowy wciskany 8 mm dwukierunkowy
+  9 PLN - MATERIAŁ : 6szt opaska śrubowa 15-17mm
+  2 PLN - MATERIAŁ : 2szt opaska śrubowa 12-14mm
+  2 PLN - MATERIAŁ : 2szt opaska śrubowa 13-15mm
+  9 PLN - MATERIAŁ : 1m wąż zbrojony 12.5mm (z Castoramy) na połączenia pomiędzy złączkami
+  2 PLN - MATERIAŁ : 1m wąż zbrojony 10mm (z Allegro) na połączenia pomiędzy złączkami
+  6 PLN - MATERIAŁ : 1m wąż zbrojony 8mm (z Castoramy) na połączenia pomiędzy złączkami  
+ 15 PLN - MATERIAŁ : 3m wąż zbrojony 6mm (z Castoramy) na podłączenie zasilania i powrotu obiegu wody w chłodnicy
+  7 PLN - MATERIAŁ : 1m wąż silikonowy 12/10mm (port termometrów)
+  9 PLN - MATERIAŁ : złączka przewodu miedzianego 6mm - do zamontowania chłodnicy do kapturka oraz przyłącza chłodniczego
+ 14 PLN - MATERIAŁ : perlator (z wężem) do zlewu kuchennego w celu łatwego przyłączenia zasilania wody chłodzącej (Bricomarche)
+ 60 PLN - MATERIAŁ : korek miedziany fi 54mm jako montaż chłodnicy i zakończenie kolumny. 
+--------
+224 PLN
+ 
+ 
+ KOLUMNA:
+ 
+ 70 PLN - MATERIAŁ : 54mm x 1.5mm 50cm długa rura miedziana (na 20cm kolumny z wypełnieniem i 30cm na głowicę)
+ 26 PLN - MATERIAŁ : złączka podwójna (mufa) do rury 54mm (połączenie 20cm kolumny z głowicą)
+ 15 PLN - MATERIAŁ : blacha miedziana 10cm x 20cm x   1mm : blaszki do kierowania skroplin w jeziorko
+ 24 PLN - MATERIAŁ : mosiężny nypel do wlutu 54 x 2 cale : mocowanie kolumny z garem
+ 21 PLN - MATERIAŁ : mosiężna nakrętka kołnierzowa 2 cale : mocowanie kolumny z garem 
+  1 PLN - MATERIAŁ : 2cm rurki 10/8 mm jako port termometru w głowicy
+--------
+157 PLN
+
+
+ KOCIOŁ:
+ 
+  3 PLN - MATERIAŁ : 20cm rurki 8/6 mm jako gilza termometru
+  2 PLN - MATERIAŁ : redukcja mosiężna 3/8 x 1/4 cala na port termometru
+  2 PLN - MATERIAŁ : mosiężny nypel redukcyjny 3/8 x 1/4 cala na port termometru
+--------
+  7 PLN
+ 
+ 
+ ELEKTRONIKA:
+
+ 25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
+ 28 PLN - MATERIAŁ : 4 czujniki temperatury DS18B20
+ 34 PLN - MATERIAŁ : Wemos D1 UNO R32 na ESP32 - platforma kompatybilna z Arduino. Zaleta: posiada Bluetooth 4 i można będzie połączyć się z aplikacją Android
+  4 PLN - MATERIAŁ : PUSZKA HERMETYCZNA IP54 98x98x41mm V03705 CZARNA jako obudowa do Arduino
+ 11 PLN - MATERIAŁ : 5 gniazd stereo mini jack, jako sloty do podłączenia czterech termometrów i czujnika przepływu wody chłodzącej
+ 13 PLN - MATERIAŁ : 5 wtyków stereo mini jack, jako wtyczki czterech termometrów i czujnika przepływu wody chłodzącej
+--------
+115 PLN
+
+
+546 PLN Razem
+
+
+Koszt spirytusu sklepowego: 60zł za 0.5L 96% -> 120zł/L
+
+Amortyzacja sprzętu: 546 PLN / 120PLN/L = 4.6L spirytusu. Czyli trzeba przepędzić tak mniej więcej 31L nastawu 15% (100 * 5.6L/15%),
+ale 0.7 części tego całego spirytusu to czyste serce (reszta to przedgony i pogony). Czyli w sumie by trzeba było
+przedestylować 44L nastawu o mocy 15% (100 * 4.6L / 15 / 0.7), żeby mieć 4.6L czystego spirytusu o mocy 100%.
+
+
+
+
