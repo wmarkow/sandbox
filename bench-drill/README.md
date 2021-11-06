@@ -72,7 +72,7 @@ z kolumną; to na prawdę pomaga.
 
 Do dzieła:
 * [07.02.2021 Układ pomiarowy i sztywność konstrukcji (stolik-kolumna)](https://github.com/wmarkow/sandbox/tree/master/bench-drill/01/README.md)
-* [sztywność konstrukcji: stopa](https://github.com/wmarkow/sandbox/tree/master/bench-drill/foot/README.md)
+* [28.06.2021 Sztywność konstrukcji: stopa](https://github.com/wmarkow/sandbox/tree/master/bench-drill/02/README.md)
 * [sztywność konstrukcji: kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/column/README.md)
 * sztywność konstrukcji: gondola-kolumna
 * [luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/backlash/README.md)
