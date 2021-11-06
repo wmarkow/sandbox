@@ -1,4 +1,4 @@
-# Sztywność konstrukcji: stolik-kolumna
+# 2021.02.07 Układ pomiarowy i pomiar początkowy.
 
 Stolik jest raczej kiepsko wykonany. Łatwo się ugina. Wydaje się zasadnym, żeby podstawić pod niego jakiś kawałek drewnianego klocka.
 
@@ -7,13 +7,13 @@ Układ pomiarowy przedstawiony jest na rysunkach poniżej.
 W wersji stolika bez podparcia:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test_setup_1a.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/01/test_setup_1a.jpg" width="60%" >
 </p>
 
 i w wersji, gdzie stolik jest podparty sosnowym klockiem:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/test_setup_1b.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/01/test_setup_1b.jpg" width="60%" >
 </p>
 
 Czujnik zegarowy jest zamocowany do podstawy stolika, za wiertłem łopatkowym. Mierzy on odchylenie od kolumny.
@@ -56,7 +56,7 @@ Krótki komentarz do wyników:
 Poniżej przedstawiam schemat pomiarów w postaci szkicu technicznego:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/table-column/schema.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/01/schema.jpg" width="60%" >
 </p>
 
 W środku kolumny w odległości **l** od górnego i od dolnego jej mocowania znajduje się czujnik zegarowy, który mierzy
@@ -69,4 +69,4 @@ na tangens kąta **alfa** występuje suma **l+Δy**. Jeżeli założyć, że zmi
 z kołnierza podczas większej siły nacisku), to można w mianowniku pominąć czynnik **Δy** i obliczyć w bardzo prosty sposób kąt ugięcia 
 uwzględniając tylko wielkości **l** i **Δx**.
 Niepodparty stolik przy sile nacisku 10kG odchyla się wtedy o 0.86 stopnia (odchył 0.15mm na każde 10mm w głąb wierconego materiału).
-Podparty stolik przy tej samej sile nacisku odchyla się już tylko o 0.52 stopnia (odchył 0.09mm na każde 10mm w głąb wierconego materiału).
+Podparty stolik przy tej samej sile nacisku odchyla się już tylko o 0.52 stopnia (odchył 0.09mm na każde 10mm w głąb wierconego materiał
