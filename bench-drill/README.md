@@ -76,7 +76,7 @@ Do dzieła:
 * [29.06.2021 Rezonans pokrywy kół pasowych](https://github.com/wmarkow/sandbox/tree/master/bench-drill/03/README.md)
 * [01.07.2021 Luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/04/README.md)
 * [25.07.2021 Sztywność konstrukcji: kolumna część 1](https://github.com/wmarkow/sandbox/tree/master/bench-drill/05/README.md)
-* [25.07.2021 Sztywność konstrukcji: kolumna część 1](https://github.com/wmarkow/sandbox/tree/master/bench-drill/06/README.md)
+* [14.09.2021 Sztywność konstrukcji: kolumna część 2](https://github.com/wmarkow/sandbox/tree/master/bench-drill/06/README.md)
 
 * sztywność konstrukcji: gondola-kolumna
 
