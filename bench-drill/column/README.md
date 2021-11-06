@@ -49,7 +49,7 @@ Po zamontowaniu z resztą wiertarki wykonałem pomiary odgięcia. Ponownie zbudo
 a porównawczy wynik jest w poniżeszej tabelce:
 
 | Siła nacisku na korbę [kG] | Odchylenie bez klocka [mm]| Odchylenie z klockiem [mm]| Odchylenie ze wzmocnioną stopą [mm]| Odchylenie ze wzmocnioną kolumną [mm] |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 |  0 | -0.08 | -0.08 | | -0.05 |
 |  1 |  0.00 |  0.00 | 0.00 | 0.00 |
 |  2 |  0.18 |  0.06 | 0.12 | 0.04 |
