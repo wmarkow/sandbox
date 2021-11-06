@@ -1,5 +1,4 @@
-# Luz gilzy
-
+# 01.07.2021 Luz gilzy
 
 Luz gilzy jest duży. Wynosi on 0.80mm w kierunku przód-tył (kierunek silnik-operator wiertarki) przy maksymalnym wysuwie 52mm
 i całkowicie wykręconej śrubie kasowania luzu.
@@ -10,18 +9,18 @@ wysunięcie gilzy powinno być nie większe niż 46mm.
 
 Wykręcona gilza przedstawia się poniżej:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/gilza1.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/gilza1.jpg" width="60%" >
 </p>
 
 Śruba kasowania luzu wraz z kontrnakrętką wygląda tak:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/regulation_screw3.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/regulation_screw3.jpg" width="60%" >
 </p>
 
 Śrube tę od razu trzeba poprawić (zeszlifować) gdyż ma ona nieregularne czoło i w zasadzie nie idzie nią dobrze skasować
 luzu. Na rysunku poniżej widać nieregularność płaszczyzny śruby:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/screw_before_1.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/screw_before_1.jpg" width="60%" >
 </p>
 
 Najlepiej by było splanować płaszczyznę na tokarce. Tokarki jeszcze nie mam więc zeszlifowałem śrubę za pomocą szlifierki stołowej.
@@ -34,7 +33,7 @@ Wyróżniam dwa typy luzu gilzy:
 
 
 [Tutaj na forum CNC](https://www.cnc.info.pl/luz-pinoli-w-ws15-t31908.html) znalazłem fajny sposób na kasowanie luzu gilzy. Kopia tego materiału znajduje się
-[tutaj jako PDF](https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/cnc.info.pl_Luz_pinoli_w_WS15.pdf).
+[tutaj jako PDF](https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/cnc.info.pl_Luz_pinoli_w_WS15.pdf).
 
 
 Zainspirowany tym artykułem wpadłem na pomysł by owinąć gilzę blaszką aluminiową wyciętą z puszki po piwie. Nie chciałem tego kleić tylko owinąć
@@ -44,12 +43,12 @@ Najpierw wyciąłem kawałek folii po piwie "Dębowe". Folia ma wysokość okoł
 ją wokól gilzy. Trzeba zostawić miejsce na śrubę kasującą luz. Maglownica, po której jeźdźi koło zębate od korby jest cała owinięta foilią. Tym się
 na razie nie trzeba przejmować:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/reduce_backlash_1.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/reduce_backlash_1.jpg" width="60%" >
 </p>
 
 Potem wsunąłem gilze z folią do kołnierza:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/reduce_backlash_2.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/reduce_backlash_2.jpg" width="60%" >
 </p>
 
 Wciskamy korbę z kołem zębatym na swoje miejsce i delikatnie obracamy korbą tak, jakbyśmy chcieli wiercić. Okazuje się, że koło
@@ -57,17 +56,17 @@ zębate przebija folię aluminiową i sprawnie przesuwa sie po maglownicy toruj�
 wbita w maglownicę, co niejako kasuje luz na maglownicy i dodatkowo zakleszcza folię w gilzie uniemożliwiając jej zsunięcię się
 z gilzy. Same plusy!
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/reduce_backlash_3.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/reduce_backlash_3.jpg" width="60%" >
 </p>
 
 Tak to wygląda po wyjęciu korby z kołem zębatym:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/reduce_backlash_4.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/reduce_backlash_4.jpg" width="60%" >
 </p>
 
 A tak wygląda cała gilza ponownie wyjęta z kołnierza:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/reduce_backlash_5.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/reduce_backlash_5.jpg" width="60%" >
 </p>
 
 Wydaje mi się, że ta blaszka aluminiowa mogłaby być ciut dłuższa. Nawet dłuższa od samej gilzy.
@@ -76,12 +75,12 @@ Zbudowałem układ pomiarowy:
 
 jeden do pomiaru luzu przód-tył:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/test_setup_1.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/test_setup_1.jpg" width="60%" >
 </p>
 
 i drugi do pomiaru luzu bocznego:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/backlash/test_setup_2.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/04/test_setup_2.jpg" width="60%" >
 </p>
 Uwaga: luz w obu przypadkach był mierzony w punkcie, jak to przedstawiono na fotografii do pomiaru luzu bocznego.
 

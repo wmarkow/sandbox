@@ -1,4 +1,4 @@
-# Rezonans pokrywy kół pasowych
+# 29.06.2021 Rezonans pokrywy kół pasowych
 
 Przy pewnych kombinacjach nastawy obrotów, obrabianego materiału i siły nacisku na korbę, pokrywa kół pasowych wpada w rezonans, co objawia
 się nieprzyjemnym dźwiękiem podczas prac wiertarskich. Kupiłem 1m wężyka igielitowego 6/4 mm. Rozciąłem go nożykiem 
@@ -6,5 +6,5 @@ po długości i założyłem wokół dolnej części komory kół pasowych. Pokr
 zniknie. Oto jak wygląda rzecz po modyfikacji:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/gear-box-resonance/gear_box.jpg" width="60%" >
+  <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/bench-drill/03/gear_box.jpg" width="60%" >
 </p>

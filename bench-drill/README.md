@@ -73,10 +73,11 @@ z kolumną; to na prawdę pomaga.
 Do dzieła:
 * [07.02.2021 Układ pomiarowy i sztywność konstrukcji (stolik-kolumna)](https://github.com/wmarkow/sandbox/tree/master/bench-drill/01/README.md)
 * [28.06.2021 Sztywność konstrukcji: stopa](https://github.com/wmarkow/sandbox/tree/master/bench-drill/02/README.md)
+* [29.06.2021 Rezonans pokrywy kół pasowych](https://github.com/wmarkow/sandbox/tree/master/bench-drill/03/README.md)
+* [01.07.2021 Luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/04/README.md)
 * [sztywność konstrukcji: kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/column/README.md)
 * sztywność konstrukcji: gondola-kolumna
-* [luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/backlash/README.md)
-* [rezonans pokrywy kół pasowych](https://github.com/wmarkow/sandbox/tree/master/bench-drill/gear-box-resonance/README.md)
+
   
    
  
