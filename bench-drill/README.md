@@ -71,7 +71,7 @@ Na samym poczatku polecam pod stolik podstawić jakiś klocek z twardego drewna,
 z kolumną; to na prawdę pomaga.
 
 Do dzieła:
-* [sztywność konstrukcji: stolik-kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/table-column/README.md)
+* [07.02.2021 Układ pomiarowy i sztywność konstrukcji (stolik-kolumna)](https://github.com/wmarkow/sandbox/tree/master/bench-drill/01/README.md)
 * [sztywność konstrukcji: stopa](https://github.com/wmarkow/sandbox/tree/master/bench-drill/foot/README.md)
 * [sztywność konstrukcji: kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/column/README.md)
 * sztywność konstrukcji: gondola-kolumna

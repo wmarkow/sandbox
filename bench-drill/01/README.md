@@ -1,4 +1,4 @@
-# 2021.02.07 Układ pomiarowy i pomiar początkowy.
+# 07.02.2021 Układ pomiarowy i pomiar początkowy.
 
 Stolik jest raczej kiepsko wykonany. Łatwo się ugina. Wydaje się zasadnym, żeby podstawić pod niego jakiś kawałek drewnianego klocka.
 
