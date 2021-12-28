@@ -28,7 +28,7 @@ bez względu na swoją odległość od kolumny. Oczywiście przy założeniu, ż
 Wyniki pomiarów odchylenia znajdują się w poniższej tabeli:
 
 | Siła nacisku na korbę [kG] | Odchylenie gondoli od kolumny [mm]|
-|---|---|---|
+|---|---|
 |  0 |  |
 |  1 | 0.00 |
 |  2 | 0.02 |
