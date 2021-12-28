@@ -45,7 +45,7 @@ Wręcz przeciwnie nawet pogarsza sprawę. Przecież dodatkowe usztywnienie nie p
 wniosku z tej obserwacji:
  * błędna lub niedoskonała metoda pomiarowa ze względu na konstrukcję układu pomiarowego. Za każdym razem układ pomiarowy
  jest demontowany i montowany na nowo wg rysunku z [sztywność konstrukcji: stolik-kolumna](https://github.com/wmarkow/sandbox/tree/master/bench-drill/01/README.md).
- Niedoskonałość w otworzeniu pierwotnego układu pomiarowego może mieć wpływ na wyniki pomiarów.
+ Niedoskonałość w odtworzeniu pierwotnego układu pomiarowego może mieć wpływ na wyniki pomiarów.
  *  niedoskonała metoda pomiarowa ze względu na dokładność pomiaru. Po prostu kolumna została już tak ulepszona, że lepiej nie będzie
  a wyniki leżą w marginesie błędu pomiarowego metody.
  * kolumna została tak ulepszona, że jej sztywność jest duża i zaczynają odginać się inne słabsze elementy konstrukcji prowadząc 

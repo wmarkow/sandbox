@@ -20,8 +20,8 @@ Kilka informacji z noty katalogowej:
  * Tryb pracy: Sieciowe
  * Uchwyt wiertarski: B16 (1,5–16 mm)
  * Kąt stołu wiertarskiego: -45° do +45°
- * Długość kabla sieciowego: Ok. 3 m
- * Waga urządzenia: Ok. 14.9 g
+ * Długość kabla sieciowego: ok. 3 m
+ * Waga urządzenia: ok. 14.9 kg
  
  
 Po wykonaniu kilku otworów (zarówno w drewnie jak i w miękkiej podkładce stalowej), mogę wskazać pierwsze wady i zalety urządzenia:
