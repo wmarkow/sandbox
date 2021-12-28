@@ -231,8 +231,31 @@ tutaj lesgo58 opisuje doświadczenie z odbiorem przedgonów tylko za pomocą wsk
 https://alkohole-domowe.com/forum/post83310.html?hilit=odbi%C3%B3r%20termometr#p83300
 
 
-------------------------------------------------------------------------------------------------------------------
+Odbiór przedgonów przed czy po stabilizacji kolumny?
+https://alkohole-domowe.com/forum/przedgon-przed-czy-po-stabilizacji-kolumny-t8204.html
+Tam jest porównanie wyników chromatografu.
 
+
+Tutaj radius pisze, że Akas robiuł badania na jakiej mocy powinna działac kolumna:
+https://alkohole-domowe.com/forum/post70225.html?hilit=stabilizac*#p70245
+No, nie do końca ;) Eksperymenty Akasa wykazały, że kolumna najefektywniej pracuje tuż pod progiem zalania lub na ok. połowie tej mocy 
+
+Tu niby o mocy podczas stabilizacji (pisze radius):
+https://alkohole-domowe.com/forum/post64986.html?hilit=stabilizac*#p54219
+
+
+Tu radius pisze o gęstości wypełnienia zmywakow w kolumnie:
+https://alkohole-domowe.com/forum/post64986.html?hilit=stabilizac*#p64927
+
+
+------------------------------------------------------------------------------------------------------------------
+Tutaj Brzydal pisze o mocy grzania dwóch kotłów o różnych objętościach. Według niego grzanie ta sama mocą wsadów o różnej objętości
+powoduje parowanie/wrzenie z taka samą intensywnością ml/min. Do takich samych wniosków doszedłem analizując równianie na ciepło parowania.
+UWAGA: to jest prawda gdy kotły są IDEALNIE zaizolowanie, czyli strata ciepła jest zerowa.
+https://alkohole-domowe.com/forum/stabilizacja-kolumny-t2068-20.html#p41629
+
+Jeszcze tutaj o utracie ciepła w KEGu ("prawie" dobry opis ze wzorami):
+https://alkohole-domowe.com/forum/stabilizacja-kolumny-t2068-20.html#p41645
 
 ------------------------------------------------------------------------------------------------------------------
 
