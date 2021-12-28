@@ -77,8 +77,7 @@ Do dzieła:
 * [01.07.2021 Luz gilzy](https://github.com/wmarkow/sandbox/tree/master/bench-drill/04/README.md)
 * [25.07.2021 Sztywność konstrukcji: kolumna część 1](https://github.com/wmarkow/sandbox/tree/master/bench-drill/05/README.md)
 * [14.09.2021 Sztywność konstrukcji: kolumna część 2](https://github.com/wmarkow/sandbox/tree/master/bench-drill/06/README.md)
-
-* sztywność konstrukcji: gondola-kolumna
+* [15.09.2021 Sztywność konstrukcji: pomiar odchylenia gondoli względem kolumny](https://github.com/wmarkow/sandbox/tree/master/bench-drill/07/README.md)
 
   
    
