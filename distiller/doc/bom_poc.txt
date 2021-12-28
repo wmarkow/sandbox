@@ -2,13 +2,15 @@
 
   5 PLN - NARZĘDZIE: 50cm plastikowej rurki kanalizacyjnej o średnicy zewnetrznej 32mm + 1m wałka drewnianego o średnicy zewnetrznej 16mm : do nawijania chłodnicy
  22 PLN - NARZĘDZIE: otwornica nastawna 30-120mm do wiercenia otworów lub wycinania kół
- 23 PLN - NARZĘDZIE: palnik gazowy z kartuszem
+ 23 PLN - NARZĘDZIE: palnik gazowy z kartuszem - duży płomień do lutowania kolumny
+ 15 PLN - NARZĘDZIE: mały palnik gazowy (bez kartusza, nabijany gazem) - mały płomień do lutowania detali (np. zaworka odbioru)
  16 PLN - NARZĘDZIE: drobny brzeszczot do metalu z uchwytem
  16 PLN - NARZĘDZIE: 100g cyny do lutowania o średnicy 1.2mm (ta cyna okazuje się, że ma 40% Pb - nie będe jej używał)
  28 PLN - NARZĘDZIE: 70g Cyna bezołowiowa Q-Solder z topnikiem
-  9 PLN - NARZĘDZIE: topnik do lutowania miekkiego
+  9 PLN - NARZĘDZIE: topnik do lutowania miękkiego
+  0 PLN - NARZĘDZIE: multiszlifierka typu Dremel - do wycinania otworów w pokrywie garnka i odcinania detali (akurat mam już na stanie)
  -------
-119 PLN
+134 PLN
  
  
  CHŁODNICA I UKŁAD CHŁODZENIA:
@@ -42,17 +44,26 @@
  24 PLN - MATERIAŁ : mosiężny nypel do wlutu 54 x 2 cale : mocowanie kolumny z garem (flanszy sam jednak nie będę robił)
  21 PLN - MATERIAŁ : mosiężna nakrętka kołnierzowa 2 cale : mocowanie kolumny z garem (flanszy jednak sam nie będe robił) 
  19 PLN - MATERIAŁ : 1m rurki 10/8 mm jako port termometru w głowicy (a potrzebne jest tylko 2cm takiej rurki, eh)
+  1 PLN - MATERIAŁ : taśma teflonowa na uszczelnianie połączenia kolumny 1szt (12m)
+ 20 PLN - MATERIAŁ : zmywaki nierdzewne 40g 5 sztuk
+  0 PLN - MATERIAŁ : miedziana rurka fi 5/3 mm o długości ok. 10cm na odbiór (wziałęm taki odcinek z odpadków od chłodnicy)
+  4 PLN - MATERIAŁ : wężyk 6/4 mm do zaworka odbioru
+  3 PLN - MATERIAŁ : miedziany nypel redukcyjny 18/15 mm do zaworka odbioru
+  2 PLN - MATERIAŁ : mosiężna śruba M5 o długości 20mm wraz z nakrętką do zaworka odbioru (ściskanie wężyka)
 --------
-199 PLN
+229 PLN
 
 
  KOCIOŁ:
- 
+166 PLN - MATERIAŁ : garnek ze stali nierdzewnej 17L o wymiarach fi 28cm wysokośc 28cm (producent Yato)
  14 PLN - MATERIAŁ : 1m rurki 8/6 mm jako gilza termometru (a potrzebne jest jakieś 20cm takiej rurki, eh)
   2 PLN - MATERIAŁ : redukcja mosiężna 3/8 x 1/4 cala na port termometru
   2 PLN - MATERIAŁ : mosiężny nypel redukcyjny 3/8 x 1/4 cala na port termometru
+  5 PLN - MATERIAŁ : płyta silikonowa 1mm 10x10cm 2 sztuki (na różne uszczelki)
+  6 PLN - MATERIAŁ : płyta silikonowa 2mm 10x10cm 2 sztuki (na różne uszczelki)
+  4 PLN - MATERIAŁ : wężyk silikonowy 10/8mm 1m na uszczelkę pokrywy garnka
 --------
- 18 PLN
+199 PLN
  
  
  ELEKTRONIKA:
@@ -67,14 +78,14 @@
 115 PLN
 
 
-717 PLN Razem
+943 PLN Razem
 
 
 Koszt spirytusu sklepowego: 60zł za 0.5L 96% -> 120zł/L
 
-Amortyzacja sprzętu: 717 PLN / 120PLN/L = 6L spirytusu. Czyli trzeba przepędzić tak mniej więcej 40L nastawu 15% (100 * 6L/15%),
+Amortyzacja sprzętu: 943 PLN / 120PLN/L = 8L spirytusu. Czyli trzeba przepędzić tak mniej więcej 53L nastawu 15% (100 * 8L/15%),
 ale 0.7 części tego całego spirytusu to czyste serce (reszta to przedgony i pogony). Czyli w sumie by trzeba było
-przedestylować 57L nastawu o mocy 15% (100 * 6L / 15 / 0.7), żeby mieć 6L czystego spirytusu o mocy 100%.
+przedestylować 76L nastawu o mocy 15% (100 * 8L / 15 / 0.7), żeby mieć 8L czystego spirytusu o mocy 100%.
 
 
 
