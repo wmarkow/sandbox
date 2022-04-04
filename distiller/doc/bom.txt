@@ -17,7 +17,12 @@
  12 PLN - MATERIAŁ : 4szt redukcje 12/8 mm : zasilanie i powrót wody w chłodnicy
   8 PLN - MATERIAŁ : 2szt kolanko 6/8 mm : zasilanie i powrót wody w chłodnicy
   6 PLN - MATERIAŁ : 2szt kolanko 6/6 mm : zasilanie i powrót wody w chłodnicy
-  7 PLN - MATERIAŁ : zawór kulowy wciskany 8 mm dwukierunkowy
+ 12 PLN - MATERIAŁ : zawór dławiąco zwrotny na przewód 8mm
+  3 PLN - MATERIAŁ : przewód poliuretanowy AIRTAC 8x5,5 1mb
+ 13 PLN - MATERIAŁ : złączka wtykowa prosta 8mm z gwintem wewnętrznym 1/8 2szt.
+  6 PLN - MATERIAŁ : króciec do węża 9mm (średnica wewnętrzna węża) z gwintem zewnętrznym 1/8 cala 1szt.
+  7 PLN - MATERIAŁ : króciec do węża 8mm (średnica wewnętrzna węża) z gwintem zewnętrznym 1/8 cala 2szt.
+  6 PLN - MATERIAŁ : króciec do węża 6mm (średnica wewnętrzna węża) z gwintem zewnętrznym 1/8 cala 2szt.  
   9 PLN - MATERIAŁ : 6szt opaska śrubowa 15-17mm
   2 PLN - MATERIAŁ : 2szt opaska śrubowa 12-14mm
   2 PLN - MATERIAŁ : 2szt opaska śrubowa 13-15mm
@@ -30,7 +35,7 @@
  14 PLN - MATERIAŁ : perlator (z wężem) do zlewu kuchennego w celu łatwego przyłączenia zasilania wody chłodzącej (Bricomarche)
  60 PLN - MATERIAŁ : korek miedziany fi 54mm jako montaż chłodnicy i zakończenie kolumny. 
 --------
-224 PLN
+264 PLN
  
  
  KOLUMNA:
@@ -66,22 +71,22 @@
 
  25 PLN - MATERIAŁ : czujnik przepływu wody 0.3 do 6 L/min
  28 PLN - MATERIAŁ : 4 czujniki temperatury DS18B20
- 34 PLN - MATERIAŁ : Wemos D1 UNO R32 na ESP32 - platforma kompatybilna z Arduino. Zaleta: posiada Bluetooth 4 i można będzie połączyć się z aplikacją Android
+ 27 PLN - MATERIAŁ : ESP-WROOM-32 ESP-32 - platforma kompatybilna z Arduino. Zaleta: posiada Bluetooth 4 i można będzie połączyć się z aplikacją Android
   4 PLN - MATERIAŁ : PUSZKA HERMETYCZNA IP54 98x98x41mm V03705 CZARNA jako obudowa do Arduino
  11 PLN - MATERIAŁ : 5 gniazd stereo mini jack, jako sloty do podłączenia czterech termometrów i czujnika przepływu wody chłodzącej
  13 PLN - MATERIAŁ : 5 wtyków stereo mini jack, jako wtyczki czterech termometrów i czujnika przepływu wody chłodzącej
 --------
-115 PLN
+108 PLN
 
 
-760 PLN Razem
+793 PLN Razem
 
 
 Koszt spirytusu sklepowego: 60zł za 0.5L 96% -> 120zł/L
 
-Amortyzacja sprzętu: 760 PLN / 120PLN/L = 6.3L spirytusu. Czyli trzeba przepędzić tak mniej więcej 42L nastawu 15% (100 * 6.3L/15%),
+Amortyzacja sprzętu: 793 PLN / 120PLN/L = 6.6L spirytusu. Czyli trzeba przepędzić tak mniej więcej 44L nastawu 15% (100 * 6.6L/15%),
 ale 0.7 części tego całego spirytusu to czyste serce (reszta to przedgony i pogony). Czyli w sumie by trzeba było
-przedestylować 60L nastawu o mocy 15% (100 * 6.3L / 15 / 0.7), żeby mieć 6.3L czystego spirytusu o mocy 100%.
+przedestylować 63L nastawu o mocy 15% (100 * 6.6L / 15 / 0.7), żeby mieć 6.6L czystego spirytusu o mocy 100%.
 
 
 
