@@ -30,18 +30,18 @@ najczęściej do wymiany.
 Zainspirowany różnymi amatorskimi konstrukcjami spawarek MMA/MIG/MAG w szczególności [Invertor popis](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/concepts/09_mma_mig_mag/invertor_popis.pdf),
 postanowiłem podjąć kroki by mimo wszystko spróbować dokonać przeróbki spawarki elektrodowej inwertorowej na MIG/MAG. Moja spawarka **Magnum Power VIP 4000** jest
 oparta o układ scalony **SG3525**. Po przejrzeniu [noty katalogowej](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/SG1525.pdf) postanowiłem [zbadać jego zachowanie](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/README.md) w różnych układach konfiguracyjnych.
-W kontekście obniżenia napięcia biegu jałowego szczególnie interesujący jest [Test 4: limit PWM duty cycle with Soft-Start pin.](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/Test4/README.md),
+W kontekście obniżenia napięcia biegu jałowego szczególnie interesujący jest [Test 4: limit PWM duty cycle with Soft-Start pin](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/Test4/README.md),
 gdzie wykorzystany został Pin 8 układu (tzw. Soft Start) do ograniczenia przebiegu PWM na wyjściu układu. To rozwiązanie jest godne uwagi ze względu na bezinwazyjność w układ sterowania spawarki; wystarczy wlutować jeden dodatkowy potencjometr. Pora sprawdzić to zastosowanie w praktyce.
 
 
 Układ SG3525 generuje sygnał PWM nie tylko na podstawie pinów 1, 2, i 9 ale i także na podstawie pinu SoftStart. Układ posiada
 wewnętrzny trójwejściowy komparator. Działa to na takiej zasadzie, że sygnał wejściowy o niższym napięciu ma wiekszy priorytet na
-wartośc wypełnienia sygnału PWM. Pin 8 jest bezpośrednio podłączony do komparatora i mamy tutaj bardzo łatwą mozliwość
+wartość wypełnienia sygnału PWM. Pin 8 jest bezpośrednio podłączony do komparatora i mamy tutaj bardzo łatwą możliwość
 ograniczenia sygnału PWM na biegu jałowym. Generalnie wg producenta pin 8 służy do tzw. miękkiego startu urządzania
 sterowanego za pomoca generowanego sygnału PWM. Chodzi o to, że po załączeniu zasilania nie od razu generowany jest 
 sygnał PWM o wypełnieniu 50% tylko stopniowo narasta on do tejże wartości startując od zera. Wenątrz SG3525 do pinu 8
-jest podłączone źródło prądowe o wartości 50uA. Spawarka wykorzystuje ten fakt w taki sposób, że z zewnątrz do pinu 8 
-podłączony jest (poprzez rezystor z drugiej strony podłączony do masy) kondensator. Po włączeniu urządzenia napięcie na pinie 8 rosnie mniej więcej liniowo
+jest podłączone źródło prądowe o wartości 50uA. Układ spawarki wykorzystuje je w taki sposób, że z zewnątrz do pinu 8 
+podłączony jest (poprzez rezystor z drugiej strony podłączony do masy) kondensator. Po włączeniu urządzenia napięcie na pinie 8 rośnie mniej więcej liniowo
 od wartości 0V do ok. 5V. Przy 3.3V układ generuje już sygnały PWM o wypełnieniu 50%.
 Pomysł jest taki, by do pinu 8 podłączyć jeszcze potencjometr liniowy o wartości 100k, za pomocą którego będzie można regulować
 napięcie w zakresie od 0V do 5V (UWAGA: zbadać jaki jest wpływ na układ soft startu?).
@@ -52,7 +52,7 @@ Zmontowany układ pomiarowy wygląda tak:
 
 Na zdjęciu widać podlutowany odpowiednio potencjometr (wartość 88k zmierzona miernikiem), zaciski prądowe, multimetr i ... podłączoną do zacisków żarówkę.
 Żarówka wstępnie obciąża układ względnie niską rezystancją. Występuje na niej napięcie ok 61V i przepływa
-przez nią prąd ok 50mA (przy potencjometrze ustawionym na wartośc maksymalną). Bez tej żarówki napięcie wyjściowe na zaciskach jest mniej więcej stałe i wynosi około
+przez nią prąd ok 50mA (przy potencjometrze ustawionym na wartość maksymalną). Bez tej żarówki napięcie wyjściowe na zaciskach jest mniej więcej stałe i wynosi około
 60V bez wględu na wartość nastawy potencjometru. Innymi słowy wartość wypełnienia generowanego sygnału PWM się zmienia, ale napiecie
 na wyjściu **wskazywane multimetrem** (to jest ważne) jest stałe. Okazuje się, że spawarka w obwodzie wyjściowym
 ma kondensatory, które są ładowane ze źródła. Wyjście spawarki jest już "wstępnie obciążone" dzielnikiem
