@@ -7,12 +7,12 @@ elektrodowa cechuje się sterowaniem prądowym (automat pilnuje nastawy pradowej
 Z drugiej strony sprawa nie jest aż tak tragiczna i została poruszona w kilku miejscach, zwłaszcza na forum elektroda.pl na przykład
 tutaj:
 
-[Spawarka inwertorowa jako źródło migomatu?](https://www.elektroda.pl/rtvforum/topic688745.html)
-[Spawarka mig mag z inwertera czy da rade ? ](https://www.elektroda.pl/rtvforum/topic1481430.html)
-[Nakładka MIG do spawarki inwertorowej?](https://www.elektroda.pl/rtvforum/topic2955459.html)
-[Poszukuję chętnego do przerobienia spawarki inwertorowej](https://www.elektroda.pl/rtvforum/topic2409633.html)
-[dedra 200 przeróbka na miga czy możliwe jest zastosowanie te](https://www.elektroda.pl/rtvforum/topic959926.html)
-[Przeróbka spawarki inwertorowej MMA na MIG-MAG](https://forum.elportal.pl/viewtopic.php?t=13849)
+ * [Spawarka inwertorowa jako źródło migomatu?](https://www.elektroda.pl/rtvforum/topic688745.html)
+ * [Spawarka mig mag z inwertera czy da rade ? ](https://www.elektroda.pl/rtvforum/topic1481430.html)
+ * [Nakładka MIG do spawarki inwertorowej?](https://www.elektroda.pl/rtvforum/topic2955459.html)
+ * [Poszukuję chętnego do przerobienia spawarki inwertorowej](https://www.elektroda.pl/rtvforum/topic2409633.html)
+ * [dedra 200 przeróbka na miga czy możliwe jest zastosowanie te](https://www.elektroda.pl/rtvforum/topic959926.html)
+ * [Przeróbka spawarki inwertorowej MMA na MIG-MAG](https://forum.elportal.pl/viewtopic.php?t=13849)
 
 Kilku użytkowników forum wskazuje, że można spróbować podłączyć palnik MIG wraz z podajnikiem drutu bezpośrednio
 do wyjścia spawarki elektrodowej i po prostu spróbować. Nie zawsze kończy się to sukcesem. Problemem okazuje się
