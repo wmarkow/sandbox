@@ -77,15 +77,22 @@ Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać pró
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
 
-Ciekawostka: zrobiłem taki test
- * wyłączyć spawarkę
- * upewnić się, że żarówka jest wkręcona
- * upewnić się, że potencjometr biegu jałowego jest ustawiony w pozycję maksymalną (czyli nie działa ograniczanie napięcia biegu jałowego)
- * włączyć spawarkę
- * zmierzyć miernikiem napięcie na zaciskach wyjściowych: u mnie było ono 0V!
- * wykręcić żarówkę (żeby nie obciążać nią wyjścia spawarki)
- * wkręcić żarówkę ponownie
- * zmierzyć miernikiem napięcie na zaciskach wyjściowych: teraz było ono 61V!
+Ciekawostka:
+* test z wyłączoną żarówką
+  * wyłączyć spawarkę
+  * upewnić się, że żarówka jest wykręcona
+  * upewnić się, że potencjometr biegu jałowego jest ustawiony w pozycję maksymalną (czyli nie działa ograniczanie napięcia biegu jałowego)
+  * włączyć spawarkę
+  * zmierzyć miernikiem napięcie na zaciskach wyjściowych: u mnie było ono 61V
+* test z włączoną żarówką
+  * wyłączyć spawarkę
+  * upewnić się, że żarówka jest wkręcona
+  * upewnić się, że potencjometr biegu jałowego jest ustawiony w pozycję maksymalną (czyli nie działa ograniczanie napięcia biegu jałowego)
+  * włączyć spawarkę
+  * zmierzyć miernikiem napięcie na zaciskach wyjściowych: u mnie było ono 0V!
+  * wykręcić żarówkę (żeby nie obciążać nią wyjścia spawarki)
+  * wkręcić żarówkę ponownie
+  * zmierzyć miernikiem napięcie na zaciskach wyjściowych: teraz było ono 61V!
  
 Wygląda, jakby układ spawarki wykrywał, że podczas jej uruchomienia było podłączone jakieś obciążenie; w takim przypadku - prawdopodobnie - układ SG3225 jest w stanie
 zamknięcia (odcięcia) i generuje on sygnał PWM o zerowym wypełnieniu. Być może jest to jakieś dodatkowe zabezpieczenie. W tym konkretnym przypadku, żadne diody sygnałowe
