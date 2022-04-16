@@ -1,6 +1,6 @@
 # 07.04.2022 Przeróbka spawarki Magnum Power VIP4000 na MIG
 
-## Obniżenie napięcia biegu jałowego
+## Istota problemu: obniżenie napięcia biegu jałowego i napięcia spawania
 
 Interesującym pomysłem jest przerobienie spawarki elektrodowej (MMA) na spawarkę typu MIG/MAG. Sprawa nie jest prosta gdyż spawarka
 elektrodowa cechuje się sterowaniem prądowym (automat pilnuje nastawy pradowej) podczas gdy spawarki MIG/MAG pilnują nastawy napięciowej.
@@ -31,6 +31,8 @@ jałowe), być może przez chwilę automat ogranicza na moment napięcie wyjscio
 jest już za późno, gdyż drut ponownie się upala przy końcówce prądowej, i cykl się powtarza. Generalnie nie idzie spawać.
 Często się zdarza, że drut stapia się z końcówką prądową. Przestaje wtedy działać posów drutu a końcówka prądowa nadaje się
 najczęściej do wymiany.
+
+## Próba z potencjometrem podłączonym do pinu 8 układu SG3525
 
 Zainspirowany różnymi amatorskimi konstrukcjami spawarek MMA/MIG/MAG w szczególności [Invertor popis](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/concepts/09_mma_mig_mag/invertor_popis.pdf),
 postanowiłem podjąć kroki by mimo wszystko spróbować dokonać przeróbki spawarki elektrodowej inwertorowej na MIG/MAG. Moja spawarka **Magnum Power VIP 4000** jest
@@ -77,7 +79,7 @@ Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać pró
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
 
-Ciekawostka:
+## Ciekawostka:
 * test z wyłączoną żarówką
   * wyłączyć spawarkę
   * upewnić się, że żarówka jest wykręcona
