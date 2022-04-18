@@ -50,8 +50,8 @@ przez nią prąd ok 50mA (przy potencjometrze ustawionym na wartość maksymaln�
 62V bez wględu na wartość nastawy potencjometru. Innymi słowy wartość wypełnienia generowanego sygnału PWM się zmienia, ale napięcie
 na wyjściu **wskazywane multimetrem** (to jest ważne) jest stałe. Okazuje się, że spawarka w obwodzie wyjściowym
 ma kondensatory, które są ładowane ze źródła. Wyjście spawarki jest już "wstępnie obciążone" dzielnikiem
-rezystancyjnym (o wartości kilku kiloomów) służącym do pomiaru napięcia wyjściowego i wykrywania stanu zwarcia elektrody.
-Ten dzielnik rezystancyjny pwoduje powolne rozładowanie kondensatorów wyjściowych, dlatego napięcie wskazywane
+rezystancyjnym (o wartości 23.4k) służącym do pomiaru napięcia wyjściowego i wykrywania stanu zwarcia elektrody.
+Ten dzielnik rezystancyjny powoduje powolne rozładowanie kondensatorów wyjściowych, dlatego napięcie wskazywane
 przez multimer jest mniej więcej stałe bez względu na wartość wypełnienia sygnału PWM; napięcie zauważalnie maleje dopiero przy niskich
 wypełnieniach PWM. Podłączona żarówka ma za zadanie wstępnie obciążyć układ małą rezystancją (małą w porównaniu
 z dzielnikiem napięcia ale wysoką od rezystancji łuku spawalniczego), co spowoduje szybsze rozładowanie kondensatorów i multimetr "zauważy" spadek napięcia
@@ -78,6 +78,8 @@ dalsza minimalna zmiana nastawy skutkuje szybkim spadkiem napięcia do 0V. Udał
 Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać próbę spawania. Aby polepszyć zakres
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
+
+## Trochę teorii: symualcja układu
 
 ## Ciekawostka:
 * test z wyłączoną żarówką
