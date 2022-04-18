@@ -1,4 +1,4 @@
-# 07.04.2022 Przeróbka spawarki Magnum Power VIP4000 na MIG
+# Przeróbka spawarki Magnum Power VIP4000 na MIG
 
 ## Istota problemu: obniżenie napięcia biegu jałowego i napięcia spawania
 
@@ -100,7 +100,10 @@ startu". Wykres napięć w obu przypadkach (bez modyfikcji kolor zielony i z mod
 
 pokazuje, że modyfikacja spowalnia rozruch urządzenia prawie dwukrotnie (na maksymalnym ustawieniu potencjometru):
 * bez modyfikacji układ osiąga PWM 49% (napięcie 3.3V) po około 45ms
-* z modyfikacją układ osiąga PWM 49% (napięcie 3.3V) po około 75ms.  
+* z modyfikacją układ osiąga PWM 49% (napięcie 3.3V) po około 75ms
+
+Wydaje mi się, że takie spowolnienie nie ma negatywnego wpływu na pracę urządzenia. Gorzej by było,
+gdyby modyfikacja przyspieszyła rozruch.
 
 ## Ciekawostka:
 * test z wyłączoną żarówką
