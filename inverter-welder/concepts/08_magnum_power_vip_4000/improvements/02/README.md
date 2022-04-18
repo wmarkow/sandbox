@@ -81,6 +81,27 @@ o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie
 
 ## Trochę teorii: symualcja układu
 
+Schemat układu symulacji został przedstawiony na rysunku poniżej. Po lewej stronie znajduje się
+orginalny układ spawarki: kondensator i rezystor podłączone do pinu 8 układu SG3525. Razem
+z wewnetrznym źródłem prądowym 50uA realizują one układ tzw. "miękkiego startu". Dopóki napięcie
+na pinie 8 jest mniejsze od 0.9V, dopóty ukłąd generuje sygnały PWM o wypełnieniu 0%. Gdy napięcie
+jest wyższe od 3.3V to ukad generuje sygnały o wypełnieniu 49%. Poziomy napięć pomiędzy 0.9V a 3.3V
+generują sygnały PWM o wypełnieniu od 0% do 49%. Tak rzecze dokumentacja układu SG3525. Po włączeniu
+zasilania układ "miękkiego startu" powoli rozkręca układ do generacji maksymalnego wypełnienia.
+Dodatkowym potencjometrem (schemat po prawej) można z góry ustalić w miarę dowolne napięcie na pinie 8, 
+co pozwoli z góry ograniczyć napięcie na biegu jałowym lub spawania. 
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_sch.png" width="75%" >
+
+Symulacja pokazuje wpływ takiego rozwiązania na układ "miękkiego
+startu". Wykres napięć w obu przypadkach (bez modyfikcji kolor zielony i z modyfikacją kolor niebieski) poniżej:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_result.png" width="75%" >
+
+pokazuje, że modyfikacja spowalnia rozruch urządzenia prawie dwukrotnie (na maksymalnym ustawieniu potencjometru):
+* bez modyfikacji układ osiąga PWM 49% (napięcie 3.3V) po około 45ms
+* z modyfikacją układ osiąga PWM 49% (napięcie 3.3V) po około 75ms.  
+
 ## Ciekawostka:
 * test z wyłączoną żarówką
   * wyłączyć spawarkę
