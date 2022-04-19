@@ -74,7 +74,7 @@ Zmontowany układ pomiarowy wygląda tak:
 
 Na zdjęciu widać podlutowany odpowiednio potencjometr (wartość 88k zmierzona miernikiem), zaciski prądowe, multimetr i ... podłączoną do zacisków żarówkę.
 Żarówka wstępnie obciąża układ względnie niską rezystancją. Występuje na niej napięcie ok 61V i przepływa
-przez nią prąd ok 50mA (przy potencjometrze ustawionym na wartość maksymalną). Bez tej żarówki napięcie wyjściowe na zaciskach jest mniej więcej stałe i wynosi około
+przez nią prąd ok 50mA (przy potencjometrze ustawionym na wartość maksymalną) [^1]. Bez tej żarówki napięcie wyjściowe na zaciskach jest mniej więcej stałe i wynosi około
 62V bez wględu na wartość nastawy potencjometru. Innymi słowy wartość wypełnienia generowanego sygnału PWM się zmienia, ale napięcie
 na wyjściu **wskazywane multimetrem** (to jest ważne) jest stałe. Okazuje się, że spawarka w obwodzie wyjściowym
 ma kondensatory, które są ładowane ze źródła. Wyjście spawarki jest już "wstępnie obciążone" dzielnikiem
@@ -95,7 +95,7 @@ Wyniki pomiarów znajdują się w tabelce poniżej:
  |---|---|---|--|
  | max | 61.9 | 60.4 | 3.6 |
  |  15 | 61.4 | 59.5 | 3.1 |
- |  12 | 59.8 | 53.7 | 1.8 |
+ |  12 | 59.8 | 53.7 | 1.8 [^2] |
  |   9 | 10.0 |  0.0 | 0.0 |
  | min | 10.0 |  0.0 | 0.0 |
 
@@ -106,6 +106,13 @@ dalsza minimalna zmiana nastawy skutkuje szybkim spadkiem napięcia do 0V. Udał
 Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać próbę spawania. Aby polepszyć zakres
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
+Warto by było przeprowadzić test ze zmniejszoną opornością obciążenia wstępnego (żarówki). W przeprowadzonym teście żarówka miała opór
+ciut większy od 1k, być może warto by było zastosować tutaj jakiś opornik ceramiczny dużej mocy o oporności np. 200 Ohm?
+
+[^1]: Co by wskazywało, że opór podłączonej żarówki jest 1.22k
+[^2]: Napięcie na potencjometrze jest jednocześnie napięciem na pinie 8 układu SG3525. Napięcie 1.8V generuje
+sygnał PWM o wypełnieniu około 18%, co powinno generować napięcie 22V. Tymczasem multimetr wskazuje zawyżone napięcie 53.7V.
+Być może oporność żarówki 1.22k jest jeszcze zbyt duża i wyjście spawarki nie jest dostatecznie szybko rozładowywane?
 
 ## Ciekawostka:
 * test z wyłączoną żarówką
