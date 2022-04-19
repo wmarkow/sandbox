@@ -32,13 +32,41 @@ jest już za późno, gdyż drut ponownie się upala przy końcówce prądowej, 
 Często się zdarza, że drut stapia się z końcówką prądową. Przestaje wtedy działać posów drutu a końcówka prądowa nadaje się
 najczęściej do wymiany.
 
-## Próba z potencjometrem podłączonym do pinu 8 układu SG3525
+## Próba (symulacja) z potencjometrem podłączonym do pinu 8 układu SG3525
 
 Zainspirowany różnymi amatorskimi konstrukcjami spawarek MMA/MIG/MAG w szczególności [Invertor popis](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/concepts/09_mma_mig_mag/invertor_popis.pdf),
 postanowiłem podjąć kroki by mimo wszystko spróbować dokonać przeróbki spawarki elektrodowej inwertorowej na MIG/MAG. Moja spawarka **Magnum Power VIP 4000** jest
 oparta o układ scalony **SG3525**. Po przejrzeniu [noty katalogowej](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/SG1525.pdf) postanowiłem [zbadać jego zachowanie](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/README.md) w różnych układach konfiguracyjnych.
 W kontekście obniżenia napięcia biegu jałowego szczególnie interesujący jest [Test 4: limit PWM duty cycle with Soft-Start pin](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/elements/sg3525/tests/Test4/README.md),
-gdzie wykorzystany został Pin 8 układu (tzw. Soft Start) do ograniczenia przebiegu PWM na wyjściu układu. To rozwiązanie jest godne uwagi ze względu na bezinwazyjność w układ sterowania spawarki; wystarczy wlutować jeden dodatkowy potencjometr. Pora sprawdzić to zastosowanie w praktyce.
+gdzie wykorzystany został Pin 8 układu (tzw. Soft Start) do ograniczenia przebiegu PWM na wyjściu układu. To rozwiązanie jest godne uwagi ze względu na bezinwazyjność w układ sterowania spawarki; wystarczy wlutować jeden dodatkowy potencjometr. 
+
+Schemat układu symulacji został przedstawiony na rysunku poniżej. Po lewej stronie znajduje się
+orginalny układ spawarki: kondensator C32 i rezystor R40 podłączone do pinu 8 układu SG3525. Razem
+z wewnetrznym źródłem prądowym 50uA realizują one układ tzw. "miękkiego startu". Dopóki napięcie
+na pinie 8 jest mniejsze od 0.9V, dopóty ukłąd generuje sygnały PWM o wypełnieniu 0%. Gdy napięcie
+jest wyższe od 3.3V to ukad generuje sygnały o wypełnieniu 49%. Poziomy napięć pomiędzy 0.9V a 3.3V
+generują sygnały PWM o wypełnieniu od 0% do 49%. Tak rzecze dokumentacja układu SG3525. Po włączeniu
+zasilania układ "miękkiego startu" powoli rozkręca układ do generacji maksymalnego wypełnienia.
+Dodatkowym potencjometrem (schemat po prawej) można ustalić w miarę dowolne napięcie na pinie 8, 
+co pozwoli z góry ograniczyć napięcie na biegu jałowym lub spawania. 
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_sch.png" width="75%" >
+
+Symulacja pokazuje wpływ takiego rozwiązania na układ "miękkiego
+startu". Wykres napięć w obu przypadkach (bez modyfikcji kolor zielony i z modyfikacją kolor niebieski) poniżej:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_result.png" width="75%" >
+
+pokazuje, że modyfikacja spowalnia rozruch urządzenia prawie dwukrotnie (na maksymalnym ustawieniu potencjometru):
+* bez modyfikacji układ osiąga PWM 49% (napięcie 3.3V) po około 45ms. Kondensator ładuje się liniowo ze źródła prądowego.
+* z modyfikacją układ osiąga PWM 49% (napięcie 3.3V) po około 75ms. Ponadto obecność potencjometru zmienia charakterystykę ładowania
+kondensatora z liniowej na wykładniczą.
+
+Wydaje mi się, że takie spowolnienie nie ma negatywnego wpływu na pracę urządzenia. Gorzej by było,
+gdyby modyfikacja przyspieszyła rozruch.
+
+
+## Próba z potencjometrem podłączonym do pinu 8 układu SG3525
 
 Zmontowany układ pomiarowy wygląda tak:
 
@@ -78,32 +106,6 @@ dalsza minimalna zmiana nastawy skutkuje szybkim spadkiem napięcia do 0V. Udał
 Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać próbę spawania. Aby polepszyć zakres
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
-
-## Trochę teorii: symualcja układu
-
-Schemat układu symulacji został przedstawiony na rysunku poniżej. Po lewej stronie znajduje się
-orginalny układ spawarki: kondensator i rezystor podłączone do pinu 8 układu SG3525. Razem
-z wewnetrznym źródłem prądowym 50uA realizują one układ tzw. "miękkiego startu". Dopóki napięcie
-na pinie 8 jest mniejsze od 0.9V, dopóty ukłąd generuje sygnały PWM o wypełnieniu 0%. Gdy napięcie
-jest wyższe od 3.3V to ukad generuje sygnały o wypełnieniu 49%. Poziomy napięć pomiędzy 0.9V a 3.3V
-generują sygnały PWM o wypełnieniu od 0% do 49%. Tak rzecze dokumentacja układu SG3525. Po włączeniu
-zasilania układ "miękkiego startu" powoli rozkręca układ do generacji maksymalnego wypełnienia.
-Dodatkowym potencjometrem (schemat po prawej) można z góry ustalić w miarę dowolne napięcie na pinie 8, 
-co pozwoli z góry ograniczyć napięcie na biegu jałowym lub spawania. 
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_sch.png" width="75%" >
-
-Symulacja pokazuje wpływ takiego rozwiązania na układ "miękkiego
-startu". Wykres napięć w obu przypadkach (bez modyfikcji kolor zielony i z modyfikacją kolor niebieski) poniżej:
-
-<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_potentiometer_sim_result.png" width="75%" >
-
-pokazuje, że modyfikacja spowalnia rozruch urządzenia prawie dwukrotnie (na maksymalnym ustawieniu potencjometru):
-* bez modyfikacji układ osiąga PWM 49% (napięcie 3.3V) po około 45ms
-* z modyfikacją układ osiąga PWM 49% (napięcie 3.3V) po około 75ms
-
-Wydaje mi się, że takie spowolnienie nie ma negatywnego wpływu na pracę urządzenia. Gorzej by było,
-gdyby modyfikacja przyspieszyła rozruch.
 
 ## Ciekawostka:
 * test z wyłączoną żarówką
