@@ -107,7 +107,7 @@ Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać pró
 regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
 o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
 Warto by było przeprowadzić test ze zmniejszoną opornością obciążenia wstępnego (żarówki). W przeprowadzonym teście żarówka miała opór
-ciut większy od 1k, być może warto by było zastosować tutaj jakiś opornik ceramiczny dużej mocy o oporności np. 200 Ohm?
+ciut większy od 1k, być może warto by było zastosować tutaj jakiś rezystor dużej mocy o oporności np. 200 Ohm?
 
 [^1]: Co by wskazywało, że opór podłączonej żarówki jest 1.22k
 [^2]: Napięcie na potencjometrze jest jednocześnie napięciem na pinie 8 układu SG3525. Napięcie 1.8V generuje
