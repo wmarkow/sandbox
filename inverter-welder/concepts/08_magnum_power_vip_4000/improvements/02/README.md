@@ -117,12 +117,12 @@ Na potrzeby testu zbudowałem prowizoryczny uchywt typu spool-gun:
 
 Jest bardzo nieporęczny ale daje radę podczas testów. W skład konstrukcji wchodzą:
 * końcówka palnika wraz z końcówką prądową przymontowane taśmą do długiej na ok. 40cm pilśniowej listwy. Do tej końcówki bezpośrednio
-jest "zapięty" uchwyt elektrodowy podłączony do zacisku masowego spawarki. testowe spawanie odbywa się z użyciem drutu proszkowego, gdzie producent zaleca,
+jest "zapięty" uchwyt elektrodowy podłączony do zacisku masowego spawarki, gdyż spawanie odbywa się z użyciem drutu proszkowego, gdzie producent zaleca,
 że drut musi być podpięty do zacisku masowego. 
 * podajnik drutu zrobiony z silnika krokowego NEMA 17 i ekstrudera filamentu od drukarki 3D. Silnik krokowy zapewnia odpowiedni posuw drutu. Ekstruder posiada
 koło zębate (założone bezpośrednio na wał silnika) oraz element dociskowy z małego łożyska. Generalnie okazuje się to działać poprawnie. Minusem rozwiązania
 jest zbyt duża waga silnika zwiększająca ciężar całego uchwytu.
-* szpulka z drutem założona bezpośrednio na wkręconą w pilsniowa listwę śrubę M8. Szpulka przed wypadnięciem zabezpieczona jest nakrętką M8.
+* szpulka z drutem założona bezpośrednio na wkręconą w pilśniowa listwę śrubę M8. Szpulka zabezpieczona jest przed wypadnięciem nakrętką M8.
 * wyłącznik krańcowym służy jako włącznik podajnika drutu
 * Arduino UNO wraz z "nakładką CNC" reaguje na naciśnięcie wyłącznika krańcowego i steruje wtedy silnikiem krokowym
 * potencjometr zamontowany do "nakładki CNC" służący do regulacji szybkości posuwu drutu w zakresie od 0 do 200 cm/min. 
@@ -151,8 +151,9 @@ Prąd spawania ustawiłem na 200A (maksymalna nastawa spawarki) a napięcie bieg
 do poziomu 55V (uwaga - wartośc zmierzona multimetrem - traktować tylko orientacyjnie ze względu na niedostatecznie niską
 rezystancję żarówki). Tym razem spoiny wyglądaja dużo lepiej. Widać wtopienie w materiał podstawowy. Próby 1 i 2 szły bez problemu.
 W próbie 3 postanowiłem zmniejszyć nastawę prądu do 100A i zacząłem odczuwać odpychanie uchwytu od materiału podstawowego.
-Prawdopodobnie zbyt niski prąd nie nadążał topić drutu wysuwanego z tak dużą prędkością. Funkcja anti-stick spawarki wydawała
-się nie mieć negatywnego wpływu na proces spawania; na razie nie widzę potrzeby rozłączania tego mechanizmu podczas spawania MIG.
+Prawdopodobnie zbyt niski prąd nie nadążał topić drutu wysuwanego z tak dużą prędkością. Średnia długość spoin na zdjęciach
+to około 3-4 cm. Funkcja anti-stick spawarki wydawała się nie mieć negatywnego wpływu na proces spawania; na razie nie widzę 
+potrzeby rozłączania tego mechanizmu podczas spawania MIG.
 
 
 ## Ciekawostka:
