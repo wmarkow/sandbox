@@ -32,7 +32,7 @@ jest już za późno, gdyż drut ponownie się upala przy końcówce prądowej, 
 Często się zdarza, że drut stapia się z końcówką prądową. Przestaje wtedy działać posów drutu a końcówka prądowa nadaje się
 najczęściej do wymiany.
 
-## Próba (symulacja) z potencjometrem podłączonym do pinu 8 układu SG3525
+## Symulacja regulacji napięcia: układ z potencjometrem podłączonym do pinu 8 układu SG3525
 
 Zainspirowany różnymi amatorskimi konstrukcjami spawarek MMA/MIG/MAG w szczególności [Invertor popis](https://github.com/wmarkow/sandbox/blob/master/inverter-welder/concepts/09_mma_mig_mag/invertor_popis.pdf),
 postanowiłem podjąć kroki by mimo wszystko spróbować dokonać przeróbki spawarki elektrodowej inwertorowej na MIG/MAG. Moja spawarka **Magnum Power VIP 4000** jest
@@ -155,6 +155,47 @@ Prawdopodobnie zbyt niski prąd nie nadążał topić drutu wysuwanego z tak du�
 to około 3-4 cm. Funkcja anti-stick spawarki wydawała się nie mieć negatywnego wpływu na proces spawania; na razie nie widzę 
 potrzeby rozłączania tego mechanizmu podczas spawania MIG.
 
+## Symulacja regulacji napięcia: układ ze sprzężeniem zwrotnym podłączony do pinu 8 układu SG3525
+
+Ciekawy układ regulacji napięcia wyjściowego został przytoczony w [tym poście na forum](https://www.elektroda.pl/rtvforum/viewtopic.php?p=19978221#19978221).
+Schemat zaczerpnięty prawdopodobnie z rosyjskojęzycznej strony Internetu:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_loopback_original_sch.jpg" width="50%" >
+
+Kilka słów wyjasnienia:
+* zaciski K+ i K- to najprawdopodobniej zaciski wyjściowe spawarki
+* potencjometr 10k służy do nastawy napięcia wyjściowego
+* przełącznik MMA/MIG-MAG służy do przełączania sterownika w tryb MMA lub MIG-MAG
+* przekaźnik na dole po lewej jest załączany przyciskiem w uchwycie MIG. W stanie normalnym przycisk nie jest wciśnięty
+(nie ma spawania) i wyjście przekaźnika zwiera pin 8 układu SG3525 do masy i napięcie na wyjściu spawarki jest 0V. Po wciśnięciu
+przycisku w uchwycie (rozpoczęcie procesu spawania) przekaźnik się załącza i odcina pin 8 od masy, następuje włączenie napięcia
+spawania.
+* optoizolator PC817 zapewnia izolację galwaniczna pomiędzy obwodem spawania a obwodem sterowania SG3525, a jednocześnie steruje
+napięciem na pinie 8
+
+Przygotowałem symulację tego układu w programie LTSpice. Schemat układu jest następujący:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_loopback_sim_sch.png" width="75%" >
+
+Symulacja układu polega na wymuszonej zmianie napięcia spawania w zakresie od 0 do 60V i obserwacji jej wpływu na napięcie pinu 8.
+Wynik symulacji przedstawia sie następująco:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/pin8_loopback_sim_result.png" width="75%" >
+
+Analiza:
+* potencjometr nastawy napięcia ustawiony w pozycji środkowej (nastawa na 30V)
+* jeżeli napięcie spawania spadnie poniżej ok. 29V to napięcie na pinie 8 jest 5V, co spowoduje generowanie sygnałów
+PWM o wypełnieniu 49% i wzrost napięcia wyjściowego w kierunku wartości maksymalnej 60V
+* jeżeli napięcie spawania wzrośnie powyżej ok. 29V to napięcie na pinie 8 jest 0V, co spowoduje generowanie sygnałów
+PWM o wypełnieniu 0% i spadek napięcia wyjściowego w kierunku wartości minimalnej 0V
+* w układzie wystepuje sprzężenie zwrotne, które dąży do ustabilizowania napięcia na zadanym poziomie
+* stabilizacja napięcia jest raczej dwustabilna: albo spawarka podaje napięcie maksymalne albo minimalne. Takie cykliczne
+zmiany stabilizują napięcie wyjściowe na średnim zadanym poziomie. Nasuwa się pytanie czy taki dwustabilny tryb pracy jest
+dobry dla procesu spawania lub spawarki. Można przecież wysterować pin 8 napięciem pośrednim (np. 2.5V) co wygeneruje
+pośrednie napięcie spawania.
+* na powyższym wykresie tego nie widać, ale regulacja napięcia wyjściowego jest w zakresie od 20 do 40V.
+
+Powyższego układu nie testowałem w praktyce. Tylko zasymulowałem jego działanie.
 
 ## Ciekawostka:
 * test z wyłączoną żarówką
