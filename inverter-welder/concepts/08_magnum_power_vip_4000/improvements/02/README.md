@@ -91,24 +91,41 @@ Nastawę potencjometru określiłem sobie w godzinach, zgodną z tarczą wskazó
 
 Wyniki pomiarów znajdują się w tabelce poniżej:
 
- | Nastawa potencjometru [h] | Napięcie wyjściowe przy rozłączonej żarówce [V] | Napięcie wyjściowe przy załączonej żarówce [V]| Napięcie na potencjometrze [V]|
- |---|---|---|---|
- | max | 61.9 | 60.4 | 3.6 |
- |  15 | 61.4 | 59.5 | 3.1 |
- |  12 | 59.8 | 53.7 | 1.8 [^2] |
- |   9 | 10.0 |  0.0 | 0.0 |
- | min | 10.0 |  0.0 | 0.0 |
+ | Nastawa potencjometru [h] | Zmierzone napięcie wyjściowe przy rozłączonej żarówce [V] | Zmierzone napięcie wyjściowe przy załączonej żarówce [V]| Zmierzone napięcie na potencjometrze [V]| Zmierzona oporność na potencjometrze [kOhm]| Obliczony PWM [%]| Obliczone napięcie wyjściowe [V]|
+ |---|---|---|---|---|---|---|
+ |   max | 61.9 | 60.4 | 3.7 | 88.5 | 49 | 62 |
+ |    15 | 61.4 | 59.5 | 3.1 | 74.6 | 45 | 57 |
+ |    12 | 59.8 | 53.7 | 1.8 [^2] | 39.6 | 18 | 23 |
+ |    11 | 59.7 | 52.4 | 1.5 | 34.0 | 12 | 15 |
+ | 11/10 | 20.0 |  8.9 | 1.2 | 27.8 |  6 |  8 |
+ |    10 | 10.0 |  0.0 | 0.9 | 19.9 |  0 |  0 |
+ |     9 | 10.0 |  0.0 | 0.6 | 11.5 |  0 |  0 |
+ |   min | 10.0 |  0.0 | 0.0 |  |  0 |  0 |
 
-Potencjometr okazuje się działać ale jednak nieliniowo. Bardzo łatwo jest zbić napięcie do wartości około 45V. Później
-dalsza minimalna zmiana nastawy skutkuje szybkim spadkiem napięcia do 0V. Udało mi się uzyskać napięcie wyjściowe
+Potencjometr okazuje się działać ale jednak nieliniowo. Bardzo łatwo jest zbić napięcie do zmierzonej wartości około 45V. Później
+dalsza minimalna zmiana nastawy skutkuje szybkim spadkiem napięcia do 0V. Udało mi się uzyskać zmierzone napięcie wyjściowe
 35V a potencjometr był ustawiony wtedy na 27.5k (nastawa gdzieś pomiędzy godziną 10 a 11).
 
+Nadmienię jeszcze raz fakt pomiaru napięcia multimetrem. Przy rozłączonej żarówce multimetr nie zauważa zbytniego spadku napięcia
+wyjściowego. Jest to spowodowane obecnością dużej wstępnej rezystancji obciążającej (23.4k) układ i powodującej
+powolne rozładowywanie kondensatorów wyjsciowych. Przy załączonej żarówce o oporności około nieco ponad 1k multimetr
+łatwiej zauważa spadek napięcia wyjściowego. Jednak ten pomiar multimetrem równiez należy traktować tylko jako **pomiar
+orientacyjny!** Prawdziwa wartość napięcia ujawnia się dopiero podczas procesu spawania, gdzie rezystancja obciążenia jest
+na prawdę niska i prawie bliska rezystancji zwarciowej. Dlatego w tabelce powyżej zamieściłem kolumny pomocnicze:
+* **PWM** zawierającą wyliczoną - na podstawie napięcia na pinie 8 układu SG3525 - wartośc wypełnienia genarowanych
+sygnałów PWM. Wartość 49% oznacza generowanie maksymalnego napięcia (ok. 62V), wartość 0% oznacza minimalne
+napięcie na wyjściu (ok 0V).
+* **Obliczone napięcie wyjściowe** - wyznaczone na podstawie wartości wypełnienia **PWM**. Wartość tego napięcia
+należałoby traktować jako wyrocznię, gdyż ta wartość ujawnia się podczas procesu spawania.
+
 Widać, że regulacja napięcia biegu jałowego działa. Trzeba by wykonać próbę spawania. Aby polepszyć zakres
-regulacyjny potencjometru, proponuję zamienić go na opornik około 22k połączony szeregowo z potencjometrem 
-o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 25V-60V.
+regulacyjny potencjometru, proponuję zamienić go na opornik około 33k połączony szeregowo z potencjometrem 
+o wartości ok. 56k. Powinno być wtedy możliwe bardziej selektywne regulowanie napięcia biegu jałowego w zakresie ok. 15V-60V.
 Warto by było przeprowadzić test ze zmniejszoną opornością obciążenia wstępnego (żarówki). W przeprowadzonym teście żarówka miała opór
-ciut większy od 1k, być może warto by było zastosować tutaj jakiś rezystor dużej mocy o oporności np. 200 Ohm? Obawiam się, że napięcie mierzone
-przez multimetr jest zbyt zawyżone z uwagi na zbyt dużą rezystancję żarówki. **Wskazania multimetra należy traktować tylko orientacyjnie!**
+ciut większy od 1k, być może warto by było zastosować tutaj jakiś rezystor dużej mocy o oporności np. 200 Ohm?
+
+Ciekawostką jest fakt, że przy rozłączonej żarówce i napięciu na pinie 8 mniejszym od 0.9V, napięcie zmierzone na wyjściu spawarki jest 10V.
+Dopiero przy załączonej żarówce spada do 0V.
 
 ## Pierwsze testowe spoiny
 
@@ -127,7 +144,8 @@ jest zbyt duża waga silnika zwiększająca ciężar całego uchwytu.
 * Arduino UNO wraz z "nakładką CNC" reaguje na naciśnięcie wyłącznika krańcowego i steruje wtedy silnikiem krokowym
 * potencjometr zamontowany do "nakładki CNC" służący do regulacji szybkości posuwu drutu w zakresie od 0 do 200 cm/min. 
 
-Pierwsze próby pięciu spoin na zdjęciach poniżej. Generalnie zaczynałem od minimalnej nastawy napięcia 35V i minimalnej nastway prądu 100A.
+Pierwsze próby pięciu spoin na zdjęciach poniżej. Generalnie zaczynałem od minimalnej nastawy napięcia 35V (uwaga: wartość zmierzona multimetrem - traktować tylko orientacyjnie ze względu na niedostatecznie niską
+rezystancję żarówki) i minimalnej nastway prądu 100A.
 Prędkość wysuwu drutu szybko ustawiłem na 200cm/min, gdyż przy mniejszych wartościach wysuwu wychodziły tylko poprzerywane krople (z prawej strony
 zdjęć). Próba numer 1 okazała się mieć za niskie napięcie lub za niski prąd. Przy próbce 2 już zwiększyłem nastawę prądu do 140A. Nastawy
 napięcia niestety nie zanotowałem. Generalnie przy kolejnych próbach zacząłem zwiększać nastawy prądu i napięcia,
@@ -148,8 +166,8 @@ Zdjęcia spoin testowych poniżej:
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/02/welding_2b.jpg" width="75%" >
 
 Prąd spawania ustawiłem na 200A (maksymalna nastawa spawarki) a napięcie biegu jałowego ograniczone zostało potencjometrem
-do poziomu 55V (uwaga - wartośc zmierzona multimetrem - traktować tylko orientacyjnie ze względu na niedostatecznie niską
-rezystancję żarówki). Tym razem spoiny wyglądaja dużo lepiej. Widać wtopienie w materiał podstawowy. Próby 1 i 2 szły bez problemu.
+do poziomu 55V (uwaga: wartość zmierzona multimetrem - traktować tylko orientacyjnie ze względu na niedostatecznie niską
+rezystancję żarówki). Obliczona wartość napięcia wyjściowego dla tej nastawy - według tabelki powyżej - byłaby około 30V. Tym razem spoiny wyglądaja dużo lepiej. Widać wtopienie w materiał podstawowy. Próby 1 i 2 szły bez problemu.
 W próbie 3 postanowiłem zmniejszyć nastawę prądu do 100A i zacząłem odczuwać odpychanie uchwytu od materiału podstawowego.
 Prawdopodobnie zbyt niski prąd nie nadążał topić drutu wysuwanego z tak dużą prędkością. Średnia długość spoin na zdjęciach
 to około 3-4 cm. Funkcja anti-stick spawarki wydawała się nie mieć negatywnego wpływu na proces spawania; na razie nie widzę 
