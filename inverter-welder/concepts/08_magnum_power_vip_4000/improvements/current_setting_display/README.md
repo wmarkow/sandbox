@@ -27,6 +27,7 @@ na poziomie 200A, jednakże powtarzalność nastaw jest tutaj zapewniona. Oczywi
 
 
 Przed przystąpieniem do prac dokonałem oględzin orginalnego potencjometru i jego okolic. Poniżej schemat układu, uzyskany metodą inżynierii odwrotnej:
+
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/original_schematic.png" width="75%" >
 
 Potenjometr nastawy (VRa + VRb) ma wartość **830** ohm a jego zaciski sa podłączone do trzech przewodów w kolorach czerwonym (przez VR1 i R79 do zasilania 15.8V), czarnym (wyjście nastawy) i zielonym (do masy).
