@@ -15,6 +15,8 @@ a zamontowany w spawarce układ wygląda tak:
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/mounted_pcb.jpg" width="50%" >
 
+<br/>
+
 ## Idea układu
 Rozwiązanie techniczne wyświetlacza polega na zastąpieniu orginalnego potencjometru nastawy potencjometrem podwójnym oraz użyciu prostego woltomierza panelowego:
 * pierwszy ślizgacz potencjometru służy do regulacji nastawy prądu i jest bezpośrednio wmontowany w układ spawarki (zamiast potencjometru orginalnego)
@@ -52,6 +54,7 @@ potencjometr **1k** jak na zdjęciu poniżej:
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/docs/potentiometer_2x1k.png" width="30%" >
 
+<br/>
 
 ## Schemat układu
 Schemat nowego potencjometru nastawy wraz z wyświetlaczem panelowym poniżej:
@@ -74,6 +77,7 @@ Montaż układu jest prosty:
 * podłączyć odpowiednio wyjścia złącza JP1 do przewodów w spawarce (zielony, czarny i czerwony). Zasilanie 15.8V znaleźć w spawarce za pmoocą woltomierza.
 * podłączyć odpowiednio woltomierz panelowy do złącza LCD
 
+<br/>
 
 ## Kalibracja trymera VR3:
 1. uruchomić spawarkę
@@ -102,12 +106,45 @@ natomiast bez kropki jest już o niebo lepiej:
 
 <img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/display_without_dot.jpg" width="30%" >
 
+<br/>
 
 ## Niedoskonałość skali
 Jeszcze jedna uwaga o pewnej niedoskonałości całego rozwiązania: mianiowicie wskazania wyświetlacza nie pokrywają się ze wskazaniami orginalnej skali potencjometru. Wynika to z tego, że zastosowany
 przeze mnie potenjometr ma większy kąt obrotu niż potencjometr orginalny. Być może można by coś w tej sprawie polepszyć, np. zastosować jakiś mechaniczny ogranicznik kątu obrotu uniemożliwiający dokonanie
 pełnej nastawy potencjometru. Ponadto zastosowany potencjometr ma "ząbkowaną" oś (patrz zdjęcie powyżej) a gałka potencjometru zaciskana jest na śrubkę, w efekcie czego dokręcając ową śrubkę gałka 
 zawsze przekręca się o pewien mały kąt i chce by śrubka dociskała się zawsze pomiędzy dwa sąsiednie ząbki.
+
+<br/>
+
+## Wyznaczanie wartości trymerów VR1 i VR2
+
+Wartości trymerów VR1 i VR2 wyznacza się na podstawie dwóch granicznych położeń potencjometru nastawy prądu:
+ * dla nastawy minimalnej wartość prądu spawania jest 20A a woltomierz powinien wtedy wskazywać napięcie 0.20V
+ * dla nastawy maksymalnej wartość prądu spawania jest 200A a woltomierz powinien wtedy wskazywać napięcie 2.00V 
+
+Oba przypadki zostały rozrysowane na schematach poniżej:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/calculations_1.jpg" width="100%" >
+
+Rozpisujemy układ trzech równań:
+ * równanie (1) określa prąd płynący w obwodzie - taki sam w obu przypadkach. Zakładamy, że woltomierz posiada dużą impedancję wejściową i przez niego praktycznie nie płynie żaden prąd.
+ * równanie (2) określa wartość napięcia wskazywanego przez woltomierz dla minimalnej nastawy prądu spawania
+ * równanie (3) określa wartość napięcia wskazywanego przez woltomierz dla maksymalnej nastawy prądu spawania
+
+Rozwiązując ten układ równań można otrzymać dokładne wartości trymerów VR1 i VR2. Mamy tu teraz do czynienia wyłącznie z problemem matematycznym.
+Można ułatwić sobie zadanie i rozwiązać je z inżynieryjnego punktu widzenia, co znacznie ułatwia obliczenia. Analizując układ można zauważyć,
+że prąd płynący w układzie będzie miał wartość conajwyżej kulkunastu miliamperów, a napięcie na woltomierzu przy minimalnej nastawie prądu spawania jest małe (0.20V).
+Fakt ten sugeruje, że wartość trymera VR2 będzie mała (kilkadziesiąt omów). Rozpatrując przypadek maksymalnej nastawy prądu spawania,
+można by zaniedbać wartość trymera VR2 i na tej podstawie bardzo łatwo wyznaczyć przybliżoną wartość VR1. Znając wartość tej rezystancji
+można przejść do przypadku minimalnej nastawy prądu i wyznaczyć przybliżoną wartość VR2. Odpowiednie wzory zostały przedstawione na grafice poniżej:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/calculations_2.jpg" width="100%" >
+
+Podstawiając konkretne wartości liczbowe otrzymujemy wartości jak na rysunku poniżej:
+
+<img src="https://raw.githubusercontent.com/wmarkow/sandbox/master/inverter-welder/concepts/08_magnum_power_vip_4000/improvements/current_setting_display/calculations_3.jpg" width="100%" >
+
+Jako VR1 został wybrany trymer 10kohm, dla VR2 trymer o wartości 500ohm. Oba trymery w wersji wieloobrotowej, co umożliwia dokładną kalibrację układu wyświetlającego nastawę prądu spawania.
 
 <br/>
 
