@@ -9061,8 +9061,6 @@ C&amp;K</description>
 <part name="15.8V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="LCD" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="100k"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="10k"/>
 <part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="CK10" device="" package3d_urn="urn:adsk.eagle:package:27744/1"/>
 <part name="PIN8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="V+" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
@@ -9109,14 +9107,6 @@ C&amp;K</description>
 </instance>
 <instance part="GND3" gate="1" x="60.96" y="40.64" smashed="yes">
 <attribute name="VALUE" x="58.42" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="45.72" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.2214" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.022" y="62.23" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R2" gate="G$1" x="45.72" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.2214" y="31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.022" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="S1" gate="G$1" x="132.08" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="135.255" y="102.87" size="1.778" layer="95"/>
@@ -9200,33 +9190,19 @@ C&amp;K</description>
 <wire x1="50.8" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="P1" gate="/1" pin="E"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="55.88" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="VR1" gate="1" pin="A"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="P1" gate="/1" pin="E"/>
+<wire x1="45.72" y1="76.2" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="P1" gate="/1" pin="A"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="45.72" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
 <pinref part="VR2" gate="1" pin="S"/>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="20.32" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
